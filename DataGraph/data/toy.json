@@ -1,0 +1,150 @@
+﻿{
+  "instance": {
+    "-name": "Toy",
+    "descriptor": {
+      "days": { "-value": "5" },
+      "periods_per_day": { "-value": "4" },
+      "daily_lectures": {
+        "-min": "2",
+        "-max": "3"
+      }
+    },
+    "courses": {
+      "course": [
+        {
+          "-id": "SceCosC",
+          "-teacher": "Ocra",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "30",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "ArcTec",
+          "-teacher": "Indaco",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "42",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "TecCos",
+          "-teacher": "Rosa",
+          "-lectures": "5",
+          "-min_days": "4",
+          "-students": "40",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "Geotec",
+          "-teacher": "Scarlatti",
+          "-lectures": "5",
+          "-min_days": "4",
+          "-students": "18",
+          "-double_lectures": "yes"
+        }
+      ]
+    },
+    "rooms": {
+      "room": [
+        {
+          "-id": "rA",
+          "-size": "32",
+          "-building": "1"
+        },
+        {
+          "-id": "rB",
+          "-size": "50",
+          "-building": "0"
+        },
+        {
+          "-id": "rC",
+          "-size": "40",
+          "-building": "0"
+        }
+      ]
+    },
+    "curricula": {
+      "curriculum": [
+        {
+          "-id": "Cur1",
+          "course": [
+            { "-ref": "SceCosC" },
+            { "-ref": "ArcTec" },
+            { "-ref": "TecCos" }
+          ]
+        },
+        {
+          "-id": "Cur2",
+          "course": [
+            { "-ref": "TecCos" },
+            { "-ref": "Geotec" }
+          ]
+        }
+      ]
+    },
+    "constraints": {
+      "constraint": [
+        {
+          "-type": "period",
+          "-course": "TecCos",
+          "timeslot": [
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcTec",
+          "timeslot": [
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "SceCosC",
+          "room": { "-ref": "rA" }
+        },
+        {
+          "-type": "room",
+          "-course": "Geotec",
+          "room": { "-ref": "rB" }
+        },
+        {
+          "-type": "room",
+          "-course": "TecCos",
+          "room": { "-ref": "rC" }
+        }
+      ]
+    }
+  }
+}

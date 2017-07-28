@@ -1,0 +1,8477 @@
+﻿{
+  "instance": {
+    "-name": "Let0506-2",
+    "descriptor": {
+      "days": { "-value": "6" },
+      "periods_per_day": { "-value": "6" },
+      "daily_lectures": {
+        "-min": "2",
+        "-max": "4"
+      }
+    },
+    "courses": {
+      "course": [
+        {
+          "-id": "AntCul",
+          "-teacher": "t000",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "170",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcClaCS",
+          "-teacher": "t001",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "4",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcCla1",
+          "-teacher": "t002",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "31",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcCla2",
+          "-teacher": "t001",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "16",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcCriMed",
+          "-teacher": "t003",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcVicOriAnt",
+          "-teacher": "t004",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "13",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcStoArtMus",
+          "-teacher": "t005",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "60",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArcMedCS",
+          "-teacher": "t003",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "4",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Archiv",
+          "-teacher": "t006",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "36",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ArchivCS",
+          "-teacher": "t006",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "BioarcCS",
+          "-teacher": "t007",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "8",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Cartog",
+          "-teacher": "t008",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "5",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ChiResCS",
+          "-teacher": "t009",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "4",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Codico",
+          "-teacher": "t010",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "8",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "CodicoCS",
+          "-teacher": "t010",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "EcoAzi",
+          "-teacher": "t011",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "104",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "EleInfSciCatBenCulM2",
+          "-teacher": "t012",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "EleInfSciCatBenCulM3",
+          "-teacher": "t013",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "EpiLat",
+          "-teacher": "t014",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "16",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Esteti",
+          "-teacher": "t015",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "74",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "EtrAntIta",
+          "-teacher": "t016",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "26",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "FilCla2",
+          "-teacher": "t017",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "14",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "FilTeo",
+          "-teacher": "t018",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "33",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "FonSoc",
+          "-teacher": "t019",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "41",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "GeoTur",
+          "-teacher": "t020",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "104",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Geo1",
+          "-teacher": "t021",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "139",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Glotto",
+          "-teacher": "t022",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "18",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "InfDoc",
+          "-teacher": "t023",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "121",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ItaScr",
+          "-teacher": "t024",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "67",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LabScr",
+          "-teacher": "t024",
+          "-lectures": "1",
+          "-min_days": "1",
+          "-students": "5",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LegBenCul2",
+          "-teacher": "t025",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "110",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LetCriAnt",
+          "-teacher": "t026",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "69",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinLetGre1",
+          "-teacher": "t027",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "14",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinLetLatCS",
+          "-teacher": "t028",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinLetLat2",
+          "-teacher": "t028",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "27",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinGreA",
+          "-teacher": "t029",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "26",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinLatA",
+          "-teacher": "t030",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "53",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinLatB",
+          "-teacher": "t031",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "86",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinGen",
+          "-teacher": "t032",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "53",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LinIta",
+          "-teacher": "t033",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "32",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "LogFilMat",
+          "-teacher": "t034",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "33",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "MatTecAppArcM3",
+          "-teacher": "t035",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "8",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "MatCarCosResEdiSto",
+          "-teacher": "t036",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "56",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "MetRicStoArt",
+          "-teacher": "t037",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "18",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "NumismCS",
+          "-teacher": "t038",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "4",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "OrientCS",
+          "-teacher": "t039",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "4",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Paleoa",
+          "-teacher": "t007",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "22",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "PalLat",
+          "-teacher": "t040",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "45",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "PapiroCS",
+          "-teacher": "t041",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "13",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "ProMedCS",
+          "-teacher": "t042",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "4",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "PsiTur",
+          "-teacher": "t043",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "104",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "SocArt",
+          "-teacher": "t019",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "Sociol1",
+          "-teacher": "t019",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "143",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoConCS",
+          "-teacher": "t044",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoAntStaItaCS",
+          "-teacher": "t045",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoColIstMus",
+          "-teacher": "t046",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "131",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoDisGra",
+          "-teacher": "t047",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "18",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoFriCS",
+          "-teacher": "t048",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoLibSta",
+          "-teacher": "t049",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "20",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoLibStaCSM1",
+          "-teacher": "t050",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoLibStaCSM2",
+          "-teacher": "t051",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoRes",
+          "-teacher": "t052",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "48",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoArc",
+          "-teacher": "t002",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "14",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoArcCon",
+          "-teacher": "t053",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "63",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoArcMed",
+          "-teacher": "t054",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "33",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoArt",
+          "-teacher": "t055",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "90",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoCriArt",
+          "-teacher": "t056",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "54",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoFilCS",
+          "-teacher": "t057",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "21",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoFilMedCS",
+          "-teacher": "t058",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "23",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoLinItaCS",
+          "-teacher": "t033",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoMus",
+          "-teacher": "t059",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "51",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoProArtCulMatMed",
+          "-teacher": "t060",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "33",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoArtCon2CS",
+          "-teacher": "t061",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoArtMod2CS",
+          "-teacher": "t062",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoBib",
+          "-teacher": "t013",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "5",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoTecArtM12",
+          "-teacher": "t063",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "36",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoTecArtM3",
+          "-teacher": "t064",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "18",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoTecArtCS",
+          "-teacher": "t065",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoCriCin",
+          "-teacher": "t066",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "65",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoTecFot",
+          "-teacher": "t067",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "126",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoGre",
+          "-teacher": "t068",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "39",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoMed2",
+          "-teacher": "t069",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "115",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoModCS",
+          "-teacher": "t070",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoMod2",
+          "-teacher": "t048",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "104",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoRom",
+          "-teacher": "t071",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "76",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "StoRomCS",
+          "-teacher": "t071",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "TedUma",
+          "-teacher": "t072",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "TopRilMonAnt",
+          "-teacher": "t073",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "29",
+          "-double_lectures": "no"
+        }
+      ]
+    },
+    "rooms": {
+      "room": [
+        {
+          "-id": "r10",
+          "-size": "130",
+          "-building": "1"
+        },
+        {
+          "-id": "r14",
+          "-size": "28",
+          "-building": "1"
+        },
+        {
+          "-id": "r15",
+          "-size": "46",
+          "-building": "1"
+        },
+        {
+          "-id": "rC1",
+          "-size": "28",
+          "-building": "0"
+        },
+        {
+          "-id": "rH",
+          "-size": "170",
+          "-building": "0"
+        },
+        {
+          "-id": "rL",
+          "-size": "65",
+          "-building": "0"
+        },
+        {
+          "-id": "rM",
+          "-size": "60",
+          "-building": "1"
+        },
+        {
+          "-id": "rO",
+          "-size": "30",
+          "-building": "1"
+        },
+        {
+          "-id": "rDTM",
+          "-size": "60",
+          "-building": "2"
+        },
+        {
+          "-id": "rHTM",
+          "-size": "60",
+          "-building": "2"
+        },
+        {
+          "-id": "rVL",
+          "-size": "40",
+          "-building": "0"
+        }
+      ]
+    },
+    "curricula": {
+      "curriculum": [
+        {
+          "-id": "q000",
+          "course": [
+            { "-ref": "LinGen" },
+            { "-ref": "LinLatA" },
+            { "-ref": "Geo1" }
+          ]
+        },
+        {
+          "-id": "q001",
+          "course": [
+            { "-ref": "LinIta" },
+            { "-ref": "ItaScr" },
+            { "-ref": "Archiv" }
+          ]
+        },
+        {
+          "-id": "q002",
+          "course": [
+            { "-ref": "LinIta" },
+            { "-ref": "ItaScr" },
+            { "-ref": "Codico" }
+          ]
+        },
+        {
+          "-id": "q003",
+          "course": [
+            { "-ref": "LinIta" },
+            { "-ref": "ItaScr" },
+            { "-ref": "PalLat" }
+          ]
+        },
+        {
+          "-id": "q004",
+          "course": [
+            { "-ref": "LinIta" },
+            { "-ref": "ItaScr" },
+            { "-ref": "StoLibSta" }
+          ]
+        },
+        {
+          "-id": "q005",
+          "course": [
+            { "-ref": "Esteti" },
+            { "-ref": "StoMus" },
+            { "-ref": "Cartog" },
+            { "-ref": "LabScr" }
+          ]
+        },
+        {
+          "-id": "q006",
+          "course": [
+            { "-ref": "LinGen" },
+            { "-ref": "LinGreA" },
+            { "-ref": "LinLatA" },
+            { "-ref": "Geo1" }
+          ]
+        },
+        {
+          "-id": "q007",
+          "course": [
+            { "-ref": "Glotto" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoGre" },
+            { "-ref": "ArcCla1" },
+            { "-ref": "ItaScr" }
+          ]
+        },
+        {
+          "-id": "q008",
+          "course": [
+            { "-ref": "FilCla2" },
+            { "-ref": "LinLetLat2" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "StoRom" }
+          ]
+        },
+        {
+          "-id": "q010",
+          "course": [
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoGre" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla1" },
+            { "-ref": "ItaScr" }
+          ]
+        },
+        {
+          "-id": "q011",
+          "course": [
+            { "-ref": "Glotto" },
+            { "-ref": "EpiLat" },
+            { "-ref": "LetCriAnt" }
+          ]
+        },
+        {
+          "-id": "q012",
+          "course": [
+            { "-ref": "Glotto" },
+            { "-ref": "EpiLat" },
+            { "-ref": "TopRilMonAnt" }
+          ]
+        },
+        {
+          "-id": "q014",
+          "course": [
+            { "-ref": "FilCla2" },
+            { "-ref": "EpiLat" },
+            { "-ref": "LetCriAnt" }
+          ]
+        },
+        {
+          "-id": "q015",
+          "course": [
+            { "-ref": "FilCla2" },
+            { "-ref": "EpiLat" },
+            { "-ref": "TopRilMonAnt" }
+          ]
+        },
+        {
+          "-id": "q017",
+          "course": [
+            { "-ref": "LinGen" },
+            { "-ref": "LinLatA" },
+            { "-ref": "Geo1" },
+            { "-ref": "FonSoc" },
+            { "-ref": "AntCul" }
+          ]
+        },
+        {
+          "-id": "q018",
+          "course": [
+            { "-ref": "ItaScr" },
+            { "-ref": "Sociol1" },
+            { "-ref": "AntCul" }
+          ]
+        },
+        {
+          "-id": "q019",
+          "course": [
+            { "-ref": "StoMus" },
+            { "-ref": "LinIta" },
+            { "-ref": "Sociol1" }
+          ]
+        },
+        {
+          "-id": "q020",
+          "course": [
+            { "-ref": "StoMus" },
+            { "-ref": "LinIta" },
+            { "-ref": "AntCul" }
+          ]
+        },
+        {
+          "-id": "q021",
+          "course": [
+            { "-ref": "StoCriCin" },
+            { "-ref": "LinIta" },
+            { "-ref": "Sociol1" }
+          ]
+        },
+        {
+          "-id": "q022",
+          "course": [
+            { "-ref": "StoCriCin" },
+            { "-ref": "LinIta" },
+            { "-ref": "AntCul" }
+          ]
+        },
+        {
+          "-id": "q024",
+          "course": [
+            { "-ref": "ItaScr" },
+            { "-ref": "Archiv" },
+            { "-ref": "PalLat" }
+          ]
+        },
+        {
+          "-id": "q025",
+          "course": [
+            { "-ref": "StoMed2" },
+            { "-ref": "StoMod2" },
+            { "-ref": "StoRom" }
+          ]
+        },
+        {
+          "-id": "q026",
+          "course": [
+            { "-ref": "StoMed2" },
+            { "-ref": "StoMod2" },
+            { "-ref": "LetCriAnt" }
+          ]
+        },
+        {
+          "-id": "q027",
+          "course": [
+            { "-ref": "LetCriAnt" },
+            { "-ref": "FonSoc" },
+            { "-ref": "AntCul" }
+          ]
+        },
+        {
+          "-id": "q028",
+          "course": [
+            { "-ref": "ItaScr" },
+            { "-ref": "Esteti" },
+            { "-ref": "ArcCriMed" }
+          ]
+        },
+        {
+          "-id": "q029",
+          "course": [
+            { "-ref": "ItaScr" },
+            { "-ref": "FonSoc" },
+            { "-ref": "AntCul" },
+            { "-ref": "ArcCriMed" }
+          ]
+        },
+        {
+          "-id": "q030",
+          "course": [
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" },
+            { "-ref": "StoArcMed" },
+            { "-ref": "StoTecArtM12" }
+          ]
+        },
+        {
+          "-id": "q031",
+          "course": [
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" },
+            { "-ref": "StoArcMed" },
+            { "-ref": "StoTecArtM3" }
+          ]
+        },
+        {
+          "-id": "q032",
+          "course": [
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" },
+            { "-ref": "StoProArtCulMatMed" },
+            { "-ref": "StoTecArtM12" }
+          ]
+        },
+        {
+          "-id": "q034",
+          "course": [
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" },
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "StoTecArtM12" }
+          ]
+        },
+        {
+          "-id": "q035",
+          "course": [
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" },
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "StoTecArtM3" }
+          ]
+        },
+        {
+          "-id": "q036",
+          "course": [
+            { "-ref": "MetRicStoArt" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM2" }
+          ]
+        },
+        {
+          "-id": "q037",
+          "course": [
+            { "-ref": "MetRicStoArt" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM3" }
+          ]
+        },
+        {
+          "-id": "q038",
+          "course": [
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM2" }
+          ]
+        },
+        {
+          "-id": "q039",
+          "course": [
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM3" }
+          ]
+        },
+        {
+          "-id": "q040",
+          "course": [
+            { "-ref": "StoDisGra" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM2" }
+          ]
+        },
+        {
+          "-id": "q041",
+          "course": [
+            { "-ref": "StoDisGra" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM3" }
+          ]
+        },
+        {
+          "-id": "q042",
+          "course": [
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM2" }
+          ]
+        },
+        {
+          "-id": "q043",
+          "course": [
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoRes" },
+            { "-ref": "EleInfSciCatBenCulM3" }
+          ]
+        },
+        {
+          "-id": "q044",
+          "course": [
+            { "-ref": "StoArcCon" },
+            { "-ref": "MatCarCosResEdiSto" },
+            { "-ref": "StoCriCin" },
+            { "-ref": "SocArt" }
+          ]
+        },
+        {
+          "-id": "q045",
+          "course": [
+            { "-ref": "StoArcCon" },
+            { "-ref": "MatCarCosResEdiSto" },
+            { "-ref": "StoTecFot" },
+            { "-ref": "SocArt" }
+          ]
+        },
+        {
+          "-id": "q046",
+          "course": [
+            { "-ref": "StoArcCon" },
+            { "-ref": "MatCarCosResEdiSto" },
+            { "-ref": "StoMus" },
+            { "-ref": "SocArt" }
+          ]
+        },
+        {
+          "-id": "q047",
+          "course": [
+            { "-ref": "StoArcCon" },
+            { "-ref": "MatCarCosResEdiSto" },
+            { "-ref": "StoCriCin" },
+            { "-ref": "Esteti" }
+          ]
+        },
+        {
+          "-id": "q048",
+          "course": [
+            { "-ref": "StoArcCon" },
+            { "-ref": "MatCarCosResEdiSto" },
+            { "-ref": "StoTecFot" },
+            { "-ref": "Esteti" }
+          ]
+        },
+        {
+          "-id": "q049",
+          "course": [
+            { "-ref": "StoArcCon" },
+            { "-ref": "MatCarCosResEdiSto" },
+            { "-ref": "StoMus" },
+            { "-ref": "Esteti" }
+          ]
+        },
+        {
+          "-id": "q050",
+          "course": [
+            { "-ref": "StoGre" },
+            { "-ref": "ArcCla1" },
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" },
+            { "-ref": "Paleoa" }
+          ]
+        },
+        {
+          "-id": "q051",
+          "course": [
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "TopRilMonAnt" },
+            { "-ref": "LinGreA" }
+          ]
+        },
+        {
+          "-id": "q052",
+          "course": [
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCriMed" },
+            { "-ref": "TopRilMonAnt" },
+            { "-ref": "LinGreA" }
+          ]
+        },
+        {
+          "-id": "q053",
+          "course": [
+            { "-ref": "StoRom" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "TopRilMonAnt" },
+            { "-ref": "LinGreA" }
+          ]
+        },
+        {
+          "-id": "q054",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "Glotto" },
+            { "-ref": "MatCarCosResEdiSto" }
+          ]
+        },
+        {
+          "-id": "q055",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "AntCul" },
+            { "-ref": "Glotto" },
+            { "-ref": "MatCarCosResEdiSto" }
+          ]
+        },
+        {
+          "-id": "q056",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "InfDoc" },
+            { "-ref": "MatCarCosResEdiSto" }
+          ]
+        },
+        {
+          "-id": "q057",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "AntCul" },
+            { "-ref": "InfDoc" },
+            { "-ref": "MatCarCosResEdiSto" }
+          ]
+        },
+        {
+          "-id": "q058",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "Glotto" },
+            { "-ref": "MatTecAppArcM3" }
+          ]
+        },
+        {
+          "-id": "q059",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "AntCul" },
+            { "-ref": "Glotto" },
+            { "-ref": "MatTecAppArcM3" }
+          ]
+        },
+        {
+          "-id": "q060",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "InfDoc" },
+            { "-ref": "MatTecAppArcM3" }
+          ]
+        },
+        {
+          "-id": "q061",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "AntCul" },
+            { "-ref": "InfDoc" },
+            { "-ref": "MatTecAppArcM3" }
+          ]
+        },
+        {
+          "-id": "q062",
+          "course": [
+            { "-ref": "Archiv" },
+            { "-ref": "Geo1" },
+            { "-ref": "LinLatB" }
+          ]
+        },
+        {
+          "-id": "q063",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "InfDoc" },
+            { "-ref": "StoMus" }
+          ]
+        },
+        {
+          "-id": "q064",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "InfDoc" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q065",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "InfDoc" },
+            { "-ref": "StoTecFot" }
+          ]
+        },
+        {
+          "-id": "q066",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoMus" }
+          ]
+        },
+        {
+          "-id": "q067",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q068",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoTecFot" }
+          ]
+        },
+        {
+          "-id": "q069",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoMus" }
+          ]
+        },
+        {
+          "-id": "q070",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q071",
+          "course": [
+            { "-ref": "PalLat" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoTecFot" }
+          ]
+        },
+        {
+          "-id": "q072",
+          "course": [
+            { "-ref": "InfDoc" },
+            { "-ref": "Codico" },
+            { "-ref": "LinLetGre1" }
+          ]
+        },
+        {
+          "-id": "q073",
+          "course": [
+            { "-ref": "InfDoc" },
+            { "-ref": "Codico" },
+            { "-ref": "StoLibSta" }
+          ]
+        },
+        {
+          "-id": "q074",
+          "course": [
+            { "-ref": "InfDoc" },
+            { "-ref": "Codico" },
+            { "-ref": "StoBib" }
+          ]
+        },
+        {
+          "-id": "q075",
+          "course": [
+            { "-ref": "InfDoc" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoLibSta" }
+          ]
+        },
+        {
+          "-id": "q076",
+          "course": [
+            { "-ref": "InfDoc" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoBib" }
+          ]
+        },
+        {
+          "-id": "q077",
+          "course": [
+            { "-ref": "InfDoc" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoBib" }
+          ]
+        },
+        {
+          "-id": "q078",
+          "course": [
+            { "-ref": "StoLibSta" },
+            { "-ref": "Codico" },
+            { "-ref": "LinLetGre1" }
+          ]
+        },
+        {
+          "-id": "q079",
+          "course": [
+            { "-ref": "StoLibSta" },
+            { "-ref": "Codico" },
+            { "-ref": "StoBib" }
+          ]
+        },
+        {
+          "-id": "q080",
+          "course": [
+            { "-ref": "StoLibSta" },
+            { "-ref": "LinLetGre1" },
+            { "-ref": "StoBib" }
+          ]
+        },
+        {
+          "-id": "q081",
+          "course": [
+            { "-ref": "Sociol1" },
+            { "-ref": "InfDoc" },
+            { "-ref": "PsiTur" },
+            { "-ref": "AntCul" },
+            { "-ref": "StoRom" },
+            { "-ref": "StoArc" }
+          ]
+        },
+        {
+          "-id": "q082",
+          "course": [
+            { "-ref": "LegBenCul2" },
+            { "-ref": "EcoAzi" },
+            { "-ref": "GeoTur" },
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoTecFot" }
+          ]
+        },
+        {
+          "-id": "q083",
+          "course": [
+            { "-ref": "Sociol1" },
+            { "-ref": "InfDoc" },
+            { "-ref": "PsiTur" },
+            { "-ref": "AntCul" },
+            { "-ref": "StoMed2" },
+            { "-ref": "StoArt" }
+          ]
+        },
+        {
+          "-id": "q084",
+          "course": [
+            { "-ref": "Sociol1" },
+            { "-ref": "InfDoc" },
+            { "-ref": "PsiTur" },
+            { "-ref": "AntCul" },
+            { "-ref": "StoMod2" },
+            { "-ref": "StoArt" }
+          ]
+        },
+        {
+          "-id": "q085",
+          "course": [
+            { "-ref": "LegBenCul2" },
+            { "-ref": "EcoAzi" },
+            { "-ref": "GeoTur" },
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoTecFot" },
+            { "-ref": "StoMed2" }
+          ]
+        },
+        {
+          "-id": "q086",
+          "course": [
+            { "-ref": "LegBenCul2" },
+            { "-ref": "EcoAzi" },
+            { "-ref": "GeoTur" },
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoTecFot" },
+            { "-ref": "StoMod2" }
+          ]
+        },
+        {
+          "-id": "q091",
+          "course": [
+            { "-ref": "StoGre" },
+            { "-ref": "FilTeo" },
+            { "-ref": "LogFilMat" },
+            { "-ref": "Esteti" }
+          ]
+        },
+        {
+          "-id": "q092",
+          "course": [
+            { "-ref": "StoRom" },
+            { "-ref": "FilTeo" },
+            { "-ref": "LogFilMat" },
+            { "-ref": "Esteti" }
+          ]
+        },
+        {
+          "-id": "q093",
+          "course": [
+            { "-ref": "StoMed2" },
+            { "-ref": "FilTeo" },
+            { "-ref": "LogFilMat" },
+            { "-ref": "Esteti" }
+          ]
+        },
+        {
+          "-id": "q094",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q095",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q096",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q097",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q098",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q099",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q100",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q101",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q102",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q103",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q104",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q105",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q106",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q107",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q108",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q109",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "Archiv" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q110",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q111",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q112",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q113",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q114",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q115",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q116",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q117",
+          "course": [
+            { "-ref": "StoLinItaCS" },
+            { "-ref": "StoLibSta" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoFilCS" },
+            { "-ref": "StoCriCin" }
+          ]
+        },
+        {
+          "-id": "q118",
+          "course": { "-ref": "LinLetLat2" }
+        },
+        {
+          "-id": "q119",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "EpiLat" },
+            { "-ref": "FilCla2" }
+          ]
+        },
+        {
+          "-id": "q120",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "EpiLat" },
+            { "-ref": "LetCriAnt" }
+          ]
+        },
+        {
+          "-id": "q121",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "EpiLat" },
+            { "-ref": "LinLetLatCS" }
+          ]
+        },
+        {
+          "-id": "q123",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "EpiLat" },
+            { "-ref": "FilCla2" },
+            { "-ref": "LetCriAnt" }
+          ]
+        },
+        {
+          "-id": "q124",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "EpiLat" },
+            { "-ref": "FilCla2" },
+            { "-ref": "LinLetLatCS" }
+          ]
+        },
+        {
+          "-id": "q126",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "PalLat" },
+            { "-ref": "EpiLat" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "LinLetLatCS" }
+          ]
+        },
+        {
+          "-id": "q129",
+          "course": [
+            { "-ref": "LinLetLatCS" },
+            { "-ref": "PapiroCS" },
+            { "-ref": "StoFilMedCS" }
+          ]
+        },
+        {
+          "-id": "q130",
+          "course": [
+            { "-ref": "LinLetLatCS" },
+            { "-ref": "PapiroCS" },
+            { "-ref": "TedUma" }
+          ]
+        },
+        {
+          "-id": "q131",
+          "course": [
+            { "-ref": "LetCriAnt" },
+            { "-ref": "PapiroCS" },
+            { "-ref": "StoFilMedCS" }
+          ]
+        },
+        {
+          "-id": "q132",
+          "course": [
+            { "-ref": "LetCriAnt" },
+            { "-ref": "PapiroCS" },
+            { "-ref": "TedUma" }
+          ]
+        },
+        {
+          "-id": "q133",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "FilCla2" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "EtrAntIta" }
+          ]
+        },
+        {
+          "-id": "q134",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "FilCla2" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "TopRilMonAnt" }
+          ]
+        },
+        {
+          "-id": "q135",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "FilCla2" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "TopRilMonAnt" },
+            { "-ref": "EtrAntIta" }
+          ]
+        },
+        {
+          "-id": "q136",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "FilCla2" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "EtrAntIta" },
+            { "-ref": "TopRilMonAnt" }
+          ]
+        },
+        {
+          "-id": "q137",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "Glotto" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "EtrAntIta" }
+          ]
+        },
+        {
+          "-id": "q138",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "Glotto" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "TopRilMonAnt" }
+          ]
+        },
+        {
+          "-id": "q139",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "Glotto" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "TopRilMonAnt" },
+            { "-ref": "EtrAntIta" }
+          ]
+        },
+        {
+          "-id": "q140",
+          "course": [
+            { "-ref": "LinLetLat2" },
+            { "-ref": "Glotto" },
+            { "-ref": "StoRom" },
+            { "-ref": "ArcVicOriAnt" },
+            { "-ref": "EtrAntIta" },
+            { "-ref": "TopRilMonAnt" }
+          ]
+        },
+        {
+          "-id": "q141",
+          "course": [
+            { "-ref": "StoRomCS" },
+            { "-ref": "PapiroCS" },
+            { "-ref": "TedUma" }
+          ]
+        },
+        {
+          "-id": "q142",
+          "course": [
+            { "-ref": "StoRom" },
+            { "-ref": "LetCriAnt" },
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoMus" },
+            { "-ref": "StoCriCin" },
+            { "-ref": "StoConCS" },
+            { "-ref": "StoFilMedCS" },
+            { "-ref": "StoFilCS" }
+          ]
+        },
+        {
+          "-id": "q143",
+          "course": [
+            { "-ref": "Sociol1" },
+            { "-ref": "AntCul" },
+            { "-ref": "StoModCS" },
+            { "-ref": "StoFriCS" },
+            { "-ref": "StoAntStaItaCS" },
+            { "-ref": "StoArcMed" },
+            { "-ref": "StoProArtCulMatMed" },
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoArcCon" }
+          ]
+        },
+        {
+          "-id": "q144A",
+          "course": [
+            { "-ref": "StoArtMod2CS" },
+            { "-ref": "StoArtCon2CS" },
+            { "-ref": "ArcCla1" },
+            { "-ref": "ArcCla2" },
+            { "-ref": "ArcCriMed" },
+            { "-ref": "LegBenCul2" },
+            { "-ref": "AntCul" },
+            { "-ref": "StoCriArt" }
+          ]
+        },
+        {
+          "-id": "q144B",
+          "course": [
+            { "-ref": "StoTecArtCS" },
+            { "-ref": "StoArcMed" },
+            { "-ref": "StoProArtCulMatMed" },
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "MetRicStoArt" },
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoDisGra" },
+            { "-ref": "StoArcCon" }
+          ]
+        },
+        {
+          "-id": "q145A",
+          "course": [
+            { "-ref": "StoCriCin" },
+            { "-ref": "StoTecFot" },
+            { "-ref": "StoMus" },
+            { "-ref": "StoArtMod2CS" },
+            { "-ref": "StoArtCon2CS" },
+            { "-ref": "StoCriArt" },
+            { "-ref": "StoTecArtCS" },
+            { "-ref": "StoArcMed" }
+          ]
+        },
+        {
+          "-id": "q145B",
+          "course": [
+            { "-ref": "StoArcMed" },
+            { "-ref": "StoProArtCulMatMed" },
+            { "-ref": "ArcStoArtMus" },
+            { "-ref": "MetRicStoArt" },
+            { "-ref": "StoColIstMus" },
+            { "-ref": "StoDisGra" },
+            { "-ref": "StoArcCon" }
+          ]
+        },
+        {
+          "-id": "q146",
+          "course": [
+            { "-ref": "EtrAntIta" },
+            { "-ref": "ArcClaCS" },
+            { "-ref": "ProMedCS" },
+            { "-ref": "ArcMedCS" },
+            { "-ref": "NumismCS" },
+            { "-ref": "OrientCS" },
+            { "-ref": "PapiroCS" },
+            { "-ref": "StoRomCS" },
+            { "-ref": "BioarcCS" }
+          ]
+        },
+        {
+          "-id": "q147",
+          "course": { "-ref": "BioarcCS" }
+        },
+        {
+          "-id": "q148",
+          "course": [
+            { "-ref": "ArchivCS" },
+            { "-ref": "StoLibStaCSM1" },
+            { "-ref": "StoLibStaCSM2" },
+            { "-ref": "LegBenCul2" }
+          ]
+        },
+        {
+          "-id": "q149",
+          "course": [
+            { "-ref": "ArchivCS" },
+            { "-ref": "CodicoCS" },
+            { "-ref": "LegBenCul2" }
+          ]
+        },
+        {
+          "-id": "q150",
+          "course": [
+            { "-ref": "StoLibStaCSM1" },
+            { "-ref": "StoLibStaCSM2" },
+            { "-ref": "CodicoCS" },
+            { "-ref": "LegBenCul2" }
+          ]
+        },
+        {
+          "-id": "q151",
+          "course": [
+            { "-ref": "ArchivCS" },
+            { "-ref": "StoLibStaCSM1" },
+            { "-ref": "StoLibStaCSM2" }
+          ]
+        },
+        {
+          "-id": "q152",
+          "course": [
+            { "-ref": "ArchivCS" },
+            { "-ref": "PapiroCS" }
+          ]
+        },
+        {
+          "-id": "q153",
+          "course": [
+            { "-ref": "ArchivCS" },
+            { "-ref": "ChiResCS" }
+          ]
+        },
+        {
+          "-id": "q154",
+          "course": [
+            { "-ref": "CodicoCS" },
+            { "-ref": "ArchivCS" }
+          ]
+        },
+        {
+          "-id": "q155",
+          "course": [
+            { "-ref": "CodicoCS" },
+            { "-ref": "StoLibStaCSM1" },
+            { "-ref": "StoLibStaCSM2" }
+          ]
+        },
+        {
+          "-id": "q156",
+          "course": [
+            { "-ref": "CodicoCS" },
+            { "-ref": "PapiroCS" }
+          ]
+        },
+        {
+          "-id": "q157",
+          "course": [
+            { "-ref": "CodicoCS" },
+            { "-ref": "ChiResCS" }
+          ]
+        },
+        {
+          "-id": "q158",
+          "course": [
+            { "-ref": "StoLibStaCSM1" },
+            { "-ref": "StoLibStaCSM2" },
+            { "-ref": "PapiroCS" }
+          ]
+        },
+        {
+          "-id": "q159",
+          "course": [
+            { "-ref": "StoLibStaCSM1" },
+            { "-ref": "StoLibStaCSM2" },
+            { "-ref": "ChiResCS" }
+          ]
+        },
+        {
+          "-id": "q160",
+          "course": [
+            { "-ref": "PapiroCS" },
+            { "-ref": "ChiResCS" }
+          ]
+        }
+      ]
+    },
+    "constraints": {
+      "constraint": [
+        {
+          "-type": "period",
+          "-course": "AntCul",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcClaCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcCla1",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcCla2",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcCriMed",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcVicOriAnt",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcStoArtMus",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArcMedCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Archiv",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ArchivCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "BioarcCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Cartog",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ChiResCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Codico",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "CodicoCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "EcoAzi",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "EleInfSciCatBenCulM2",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "EleInfSciCatBenCulM3",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "EpiLat",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Esteti",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "EtrAntIta",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "FilCla2",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "FilTeo",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "FonSoc",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "GeoTur",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Geo1",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Glotto",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "InfDoc",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ItaScr",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LabScr",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LegBenCul2",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LetCriAnt",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinLetGre1",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinLetLatCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinLetLat2",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinGreA",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinLatA",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinLatB",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinGen",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LinIta",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "LogFilMat",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "MatTecAppArcM3",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "MatCarCosResEdiSto",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "MetRicStoArt",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "NumismCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "OrientCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Paleoa",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "PalLat",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "PapiroCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "ProMedCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "PsiTur",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "SocArt",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "Sociol1",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoConCS",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoAntStaItaCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoColIstMus",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoDisGra",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoFriCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoLibSta",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoLibStaCSM1",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoLibStaCSM2",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoRes",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoArc",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoArcCon",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoArcMed",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoArt",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoCriArt",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoFilCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoFilMedCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoLinItaCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoMus",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoProArtCulMatMed",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoArtCon2CS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoArtMod2CS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoBib",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoTecArtM12",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoTecArtM3",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoTecArtCS",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoCriCin",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoTecFot",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoGre",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoMed2",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoModCS",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoMod2",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "5"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoRom",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "StoRomCS",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "0",
+              "-period": "5"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "TedUma",
+          "timeslot": [
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "TopRilMonAnt",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "5"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "5"
+            },
+            {
+              "-day": "5",
+              "-period": "0"
+            },
+            {
+              "-day": "5",
+              "-period": "1"
+            },
+            {
+              "-day": "5",
+              "-period": "2"
+            },
+            {
+              "-day": "5",
+              "-period": "3"
+            },
+            {
+              "-day": "5",
+              "-period": "4"
+            },
+            {
+              "-day": "5",
+              "-period": "5"
+            }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "AntCul",
+          "room": [
+            { "-ref": "r15" },
+            { "-ref": "rVL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "ArcClaCS",
+          "room": [
+            { "-ref": "rC1" },
+            { "-ref": "rM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "ArcCla1",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "rHTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "ArcCriMed",
+          "room": { "-ref": "rH" }
+        },
+        {
+          "-type": "room",
+          "-course": "ArcVicOriAnt",
+          "room": { "-ref": "rHTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "Archiv",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "rC1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "ArchivCS",
+          "room": { "-ref": "rM" }
+        },
+        {
+          "-type": "room",
+          "-course": "Cartog",
+          "room": { "-ref": "r10" }
+        },
+        {
+          "-type": "room",
+          "-course": "EcoAzi",
+          "room": [
+            { "-ref": "rO" },
+            { "-ref": "rVL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "EleInfSciCatBenCulM2",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "rHTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "EleInfSciCatBenCulM3",
+          "room": { "-ref": "rO" }
+        },
+        {
+          "-type": "room",
+          "-course": "EpiLat",
+          "room": { "-ref": "r10" }
+        },
+        {
+          "-type": "room",
+          "-course": "Esteti",
+          "room": { "-ref": "rHTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "EtrAntIta",
+          "room": { "-ref": "r10" }
+        },
+        {
+          "-type": "room",
+          "-course": "FilTeo",
+          "room": { "-ref": "rVL" }
+        },
+        {
+          "-type": "room",
+          "-course": "GeoTur",
+          "room": [
+            { "-ref": "r14" },
+            { "-ref": "r15" },
+            { "-ref": "rC1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "Glotto",
+          "room": { "-ref": "r15" }
+        },
+        {
+          "-type": "room",
+          "-course": "InfDoc",
+          "room": { "-ref": "r15" }
+        },
+        {
+          "-type": "room",
+          "-course": "ItaScr",
+          "room": { "-ref": "rO" }
+        },
+        {
+          "-type": "room",
+          "-course": "LetCriAnt",
+          "room": { "-ref": "rL" }
+        },
+        {
+          "-type": "room",
+          "-course": "LinLetLatCS",
+          "room": { "-ref": "rDTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "LinLatB",
+          "room": { "-ref": "rO" }
+        },
+        {
+          "-type": "room",
+          "-course": "LinGen",
+          "room": [
+            { "-ref": "rL" },
+            { "-ref": "rDTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "LinIta",
+          "room": [
+            { "-ref": "r15" },
+            { "-ref": "rM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "LogFilMat",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "r14" },
+            { "-ref": "rHTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "NumismCS",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "OrientCS",
+          "room": { "-ref": "rM" }
+        },
+        {
+          "-type": "room",
+          "-course": "Paleoa",
+          "room": { "-ref": "rO" }
+        },
+        {
+          "-type": "room",
+          "-course": "PapiroCS",
+          "room": { "-ref": "rHTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "ProMedCS",
+          "room": { "-ref": "rH" }
+        },
+        {
+          "-type": "room",
+          "-course": "PsiTur",
+          "room": [
+            { "-ref": "rH" },
+            { "-ref": "rHTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "StoConCS",
+          "room": { "-ref": "rC1" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoAntStaItaCS",
+          "room": { "-ref": "rDTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoColIstMus",
+          "room": { "-ref": "rVL" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoDisGra",
+          "room": [
+            { "-ref": "rH" },
+            { "-ref": "rO" },
+            { "-ref": "rHTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "StoLibStaCSM2",
+          "room": { "-ref": "rC1" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoArc",
+          "room": { "-ref": "rC1" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoArcCon",
+          "room": { "-ref": "rVL" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoArcMed",
+          "room": { "-ref": "rHTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoArt",
+          "room": [
+            { "-ref": "r14" },
+            { "-ref": "rDTM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "StoCriArt",
+          "room": [
+            { "-ref": "rC1" },
+            { "-ref": "rH" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "StoFilCS",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "rM" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "StoLinItaCS",
+          "room": [
+            { "-ref": "r10" },
+            { "-ref": "rC1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "StoMus",
+          "room": { "-ref": "rDTM" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoArtCon2CS",
+          "room": { "-ref": "rC1" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoArtMod2CS",
+          "room": { "-ref": "rM" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoTecArtM12",
+          "room": { "-ref": "rVL" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoTecArtM3",
+          "room": { "-ref": "rC1" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoTecArtCS",
+          "room": { "-ref": "rVL" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoCriCin",
+          "room": { "-ref": "rH" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoModCS",
+          "room": { "-ref": "rC1" }
+        },
+        {
+          "-type": "room",
+          "-course": "StoRomCS",
+          "room": { "-ref": "rHTM" }
+        }
+      ]
+    }
+  }
+}

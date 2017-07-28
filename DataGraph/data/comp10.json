@@ -1,0 +1,5683 @@
+﻿{
+  "instance": {
+    "-name": "Ing0405-2",
+    "descriptor": {
+      "days": { "-value": "5" },
+      "periods_per_day": { "-value": "5" },
+      "daily_lectures": {
+        "-min": "2",
+        "-max": "4"
+      }
+    },
+    "courses": {
+      "course": [
+        {
+          "-id": "c1001",
+          "-teacher": "t000",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "38",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c1022",
+          "-teacher": "t001",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0103",
+          "-teacher": "t002",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "92",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c1053",
+          "-teacher": "t003",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0106",
+          "-teacher": "t004",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "108",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0108",
+          "-teacher": "t005",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "70",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0110",
+          "-teacher": "t006",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "180",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0113",
+          "-teacher": "t007",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "117",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0115",
+          "-teacher": "t008",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "95",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0118",
+          "-teacher": "t009",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "20",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0119",
+          "-teacher": "t010",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "35",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0127",
+          "-teacher": "t011",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "70",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0129",
+          "-teacher": "t012",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "124",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0131",
+          "-teacher": "t013",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "124",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0132",
+          "-teacher": "t013",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "121",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0133",
+          "-teacher": "t014",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "121",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c015a",
+          "-teacher": "t015",
+          "-lectures": "2",
+          "-min_days": "2",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0152",
+          "-teacher": "t016",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "124",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0153",
+          "-teacher": "t017",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "121",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0019",
+          "-teacher": "t018",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "38",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0191",
+          "-teacher": "t019",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "88",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0193",
+          "-teacher": "t020",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "103",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0195",
+          "-teacher": "t021",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "113",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0020",
+          "-teacher": "t022",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0201",
+          "-teacher": "t023",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "130",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0203",
+          "-teacher": "t024",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "132",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0206",
+          "-teacher": "t025",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "113",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0211",
+          "-teacher": "t026",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "110",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0213",
+          "-teacher": "t027",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "110",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0217",
+          "-teacher": "t028",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "110",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0219",
+          "-teacher": "t029",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "90",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0221",
+          "-teacher": "t030",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "95",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0225",
+          "-teacher": "t031",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "75",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0023",
+          "-teacher": "t032",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "123",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0230",
+          "-teacher": "t033",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "130",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0232",
+          "-teacher": "t034",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "35",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0238",
+          "-teacher": "t035",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "110",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0024",
+          "-teacher": "t036",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "35",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0252",
+          "-teacher": "t037",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "114",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0253",
+          "-teacher": "t038",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "60",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0257",
+          "-teacher": "t039",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "160",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0279",
+          "-teacher": "t035",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "78",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0411",
+          "-teacher": "t040",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0412",
+          "-teacher": "t041",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0418",
+          "-teacher": "t028",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0423",
+          "-teacher": "t042",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0428",
+          "-teacher": "t041",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0430",
+          "-teacher": "t033",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0432",
+          "-teacher": "t031",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0044",
+          "-teacher": "t043",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "189",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0443",
+          "-teacher": "t012",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0444",
+          "-teacher": "t044",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0449",
+          "-teacher": "t038",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "0",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0455",
+          "-teacher": "t045",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "50",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0464",
+          "-teacher": "t046",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "66",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0467",
+          "-teacher": "t047",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "23",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0047",
+          "-teacher": "t048",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "89",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0478",
+          "-teacher": "t049",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "35",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0479",
+          "-teacher": "t050",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0487",
+          "-teacher": "t051",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0049",
+          "-teacher": "t050",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "73",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0497",
+          "-teacher": "t052",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "5",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0503",
+          "-teacher": "t053",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "29",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0504",
+          "-teacher": "t054",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "5",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0512",
+          "-teacher": "t055",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "45",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0515",
+          "-teacher": "t056",
+          "-lectures": "4",
+          "-min_days": "3",
+          "-students": "105",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0520",
+          "-teacher": "t004",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "63",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0526",
+          "-teacher": "t007",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "10",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0530",
+          "-teacher": "t055",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0532",
+          "-teacher": "t000",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "20",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0534",
+          "-teacher": "t057",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "8",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0535",
+          "-teacher": "t010",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0537",
+          "-teacher": "t058",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "8",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0538",
+          "-teacher": "t058",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "8",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0539",
+          "-teacher": "t059",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "15",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0554",
+          "-teacher": "t022",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "25",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0056",
+          "-teacher": "t021",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "76",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0058",
+          "-teacher": "t006",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "89",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0602",
+          "-teacher": "t060",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "29",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0061",
+          "-teacher": "t061",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "73",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0062",
+          "-teacher": "t001",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "73",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0069",
+          "-teacher": "t062",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "76",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0007",
+          "-teacher": "t063",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "20",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0072",
+          "-teacher": "t064",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "95",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0723",
+          "-teacher": "t065",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "10",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0730",
+          "-teacher": "t048",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0737",
+          "-teacher": "t020",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "24",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0074",
+          "-teacher": "t066",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "17",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0742",
+          "-teacher": "t067",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "55",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0746",
+          "-teacher": "t068",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "89",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0076",
+          "-teacher": "t052",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "27",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0785",
+          "-teacher": "t069",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "137",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0789",
+          "-teacher": "t070",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0794",
+          "-teacher": "t071",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0795",
+          "-teacher": "t070",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "6",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0804",
+          "-teacher": "t072",
+          "-lectures": "3",
+          "-min_days": "2",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0807",
+          "-teacher": "t073",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0808",
+          "-teacher": "t074",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "9",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0812",
+          "-teacher": "t075",
+          "-lectures": "5",
+          "-min_days": "4",
+          "-students": "6",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0822",
+          "-teacher": "t076",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "3",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0835",
+          "-teacher": "t077",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "9",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c088a",
+          "-teacher": "t015",
+          "-lectures": "4",
+          "-min_days": "4",
+          "-students": "55",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c088b",
+          "-teacher": "t015",
+          "-lectures": "1",
+          "-min_days": "1",
+          "-students": "70",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0897",
+          "-teacher": "t078",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "14",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0009",
+          "-teacher": "t028",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "23",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0932",
+          "-teacher": "t079",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "40",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0936",
+          "-teacher": "t069",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "30",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0095",
+          "-teacher": "t080",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "70",
+          "-double_lectures": "no"
+        },
+        {
+          "-id": "c0955",
+          "-teacher": "t081",
+          "-lectures": "7",
+          "-min_days": "1",
+          "-students": "46",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0963",
+          "-teacher": "t082",
+          "-lectures": "7",
+          "-min_days": "1",
+          "-students": "57",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0883",
+          "-teacher": "t083",
+          "-lectures": "7",
+          "-min_days": "1",
+          "-students": "18",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0975",
+          "-teacher": "t084",
+          "-lectures": "7",
+          "-min_days": "1",
+          "-students": "18",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0980",
+          "-teacher": "t085",
+          "-lectures": "7",
+          "-min_days": "1",
+          "-students": "46",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0983",
+          "-teacher": "t086",
+          "-lectures": "7",
+          "-min_days": "1",
+          "-students": "60",
+          "-double_lectures": "yes"
+        },
+        {
+          "-id": "c0998",
+          "-teacher": "t087",
+          "-lectures": "3",
+          "-min_days": "3",
+          "-students": "65",
+          "-double_lectures": "no"
+        }
+      ]
+    },
+    "rooms": {
+      "room": [
+        {
+          "-id": "r25",
+          "-size": "40",
+          "-building": "1"
+        },
+        {
+          "-id": "r36",
+          "-size": "42",
+          "-building": "1"
+        },
+        {
+          "-id": "r37",
+          "-size": "42",
+          "-building": "1"
+        },
+        {
+          "-id": "r38",
+          "-size": "48",
+          "-building": "0"
+        },
+        {
+          "-id": "r31",
+          "-size": "50",
+          "-building": "0"
+        },
+        {
+          "-id": "r27",
+          "-size": "80",
+          "-building": "2"
+        },
+        {
+          "-id": "r51",
+          "-size": "90",
+          "-building": "2"
+        },
+        {
+          "-id": "rB",
+          "-size": "216",
+          "-building": "1"
+        },
+        {
+          "-id": "rD",
+          "-size": "216",
+          "-building": "1"
+        },
+        {
+          "-id": "rF",
+          "-size": "216",
+          "-building": "3"
+        },
+        {
+          "-id": "rG",
+          "-size": "216",
+          "-building": "3"
+        },
+        {
+          "-id": "rA",
+          "-size": "312",
+          "-building": "0"
+        },
+        {
+          "-id": "rL",
+          "-size": "336",
+          "-building": "0"
+        },
+        {
+          "-id": "r50",
+          "-size": "50",
+          "-building": "2"
+        },
+        {
+          "-id": "r52",
+          "-size": "65",
+          "-building": "0"
+        },
+        {
+          "-id": "rDS1",
+          "-size": "80",
+          "-building": "1"
+        },
+        {
+          "-id": "rDS2",
+          "-size": "60",
+          "-building": "1"
+        },
+        {
+          "-id": "rN",
+          "-size": "20",
+          "-building": "0"
+        }
+      ]
+    },
+    "curricula": {
+      "curriculum": [
+        {
+          "-id": "q000",
+          "course": [
+            { "-ref": "c0095" },
+            { "-ref": "c0108" },
+            { "-ref": "c0127" }
+          ]
+        },
+        {
+          "-id": "q001",
+          "course": [
+            { "-ref": "c0103" },
+            { "-ref": "c0110" },
+            { "-ref": "c0113" },
+            { "-ref": "c0785" }
+          ]
+        },
+        {
+          "-id": "q002",
+          "course": [
+            { "-ref": "c0106" },
+            { "-ref": "c0115" },
+            { "-ref": "c0118" },
+            { "-ref": "c0998" }
+          ]
+        },
+        {
+          "-id": "q003",
+          "course": [
+            { "-ref": "c0106" },
+            { "-ref": "c0115" },
+            { "-ref": "c0119" },
+            { "-ref": "c0998" }
+          ]
+        },
+        {
+          "-id": "q005",
+          "course": [
+            { "-ref": "c0106" },
+            { "-ref": "c0115" },
+            { "-ref": "c0723" },
+            { "-ref": "c0998" }
+          ]
+        },
+        {
+          "-id": "q006",
+          "course": [
+            { "-ref": "c0211" },
+            { "-ref": "c0213" },
+            { "-ref": "c0238" }
+          ]
+        },
+        {
+          "-id": "q007",
+          "course": [
+            { "-ref": "c0007" },
+            { "-ref": "c0009" },
+            { "-ref": "c0230" },
+            { "-ref": "c0023" }
+          ]
+        },
+        {
+          "-id": "q008",
+          "course": [
+            { "-ref": "c0230" },
+            { "-ref": "c0023" },
+            { "-ref": "c0217" }
+          ]
+        },
+        {
+          "-id": "q009",
+          "course": [
+            { "-ref": "c0009" },
+            { "-ref": "c0023" },
+            { "-ref": "c0019" }
+          ]
+        },
+        {
+          "-id": "q010",
+          "course": [
+            { "-ref": "c015a" },
+            { "-ref": "c088b" },
+            { "-ref": "c0019" },
+            { "-ref": "c0020" },
+            { "-ref": "c0024" }
+          ]
+        },
+        {
+          "-id": "q011",
+          "course": [
+            { "-ref": "c0019" },
+            { "-ref": "c088a" },
+            { "-ref": "c088b" },
+            { "-ref": "c0221" },
+            { "-ref": "c0253" }
+          ]
+        },
+        {
+          "-id": "q012",
+          "course": [
+            { "-ref": "c0044" },
+            { "-ref": "c0056" },
+            { "-ref": "c0069" }
+          ]
+        },
+        {
+          "-id": "q013",
+          "course": [
+            { "-ref": "c0047" },
+            { "-ref": "c0058" },
+            { "-ref": "c0746" }
+          ]
+        },
+        {
+          "-id": "q014",
+          "course": [
+            { "-ref": "c0049" },
+            { "-ref": "c0061" },
+            { "-ref": "c0062" },
+            { "-ref": "c0742" }
+          ]
+        },
+        {
+          "-id": "q015",
+          "course": [
+            { "-ref": "c0049" },
+            { "-ref": "c0061" },
+            { "-ref": "c0062" },
+            { "-ref": "c0074" }
+          ]
+        },
+        {
+          "-id": "q016",
+          "course": [
+            { "-ref": "c0049" },
+            { "-ref": "c0061" },
+            { "-ref": "c0062" },
+            { "-ref": "c0076" }
+          ]
+        },
+        {
+          "-id": "q017",
+          "course": [
+            { "-ref": "c0049" },
+            { "-ref": "c0061" },
+            { "-ref": "c0062" },
+            { "-ref": "c0072" }
+          ]
+        },
+        {
+          "-id": "q019",
+          "course": [
+            { "-ref": "c0217" },
+            { "-ref": "c0219" },
+            { "-ref": "c0023" },
+            { "-ref": "c0230" }
+          ]
+        },
+        {
+          "-id": "q020",
+          "course": [
+            { "-ref": "c0217" },
+            { "-ref": "c0219" },
+            { "-ref": "c0230" },
+            { "-ref": "c0897" }
+          ]
+        },
+        {
+          "-id": "q021",
+          "course": [
+            { "-ref": "c0221" },
+            { "-ref": "c0225" },
+            { "-ref": "c0232" },
+            { "-ref": "c088a" },
+            { "-ref": "c088b" }
+          ]
+        },
+        {
+          "-id": "q022",
+          "course": [
+            { "-ref": "c0221" },
+            { "-ref": "c0225" },
+            { "-ref": "c0253" },
+            { "-ref": "c0932" }
+          ]
+        },
+        {
+          "-id": "q023",
+          "course": [
+            { "-ref": "c0044" },
+            { "-ref": "c0195" },
+            { "-ref": "c0206" }
+          ]
+        },
+        {
+          "-id": "q024",
+          "course": [
+            { "-ref": "c0252" },
+            { "-ref": "c0191" },
+            { "-ref": "c0110" },
+            { "-ref": "c0193" }
+          ]
+        },
+        {
+          "-id": "q025",
+          "course": [
+            { "-ref": "c0257" },
+            { "-ref": "c0515" },
+            { "-ref": "c0201" },
+            { "-ref": "c0203" }
+          ]
+        },
+        {
+          "-id": "q026",
+          "course": [
+            { "-ref": "c0257" },
+            { "-ref": "c0515" },
+            { "-ref": "c0201" },
+            { "-ref": "c0467" }
+          ]
+        },
+        {
+          "-id": "q027",
+          "course": [
+            { "-ref": "c0257" },
+            { "-ref": "c0515" },
+            { "-ref": "c0201" },
+            { "-ref": "c0106" }
+          ]
+        },
+        {
+          "-id": "q028",
+          "course": [
+            { "-ref": "c0129" },
+            { "-ref": "c0131" },
+            { "-ref": "c0152" },
+            { "-ref": "c0975" }
+          ]
+        },
+        {
+          "-id": "q029",
+          "course": [
+            { "-ref": "c0129" },
+            { "-ref": "c0131" },
+            { "-ref": "c0152" },
+            { "-ref": "c0955" }
+          ]
+        },
+        {
+          "-id": "q030",
+          "course": [
+            { "-ref": "c0129" },
+            { "-ref": "c0131" },
+            { "-ref": "c0152" },
+            { "-ref": "c0983" }
+          ]
+        },
+        {
+          "-id": "q031",
+          "course": [
+            { "-ref": "c0132" },
+            { "-ref": "c0133" },
+            { "-ref": "c0153" },
+            { "-ref": "c0883" }
+          ]
+        },
+        {
+          "-id": "q032",
+          "course": [
+            { "-ref": "c0132" },
+            { "-ref": "c0133" },
+            { "-ref": "c0153" },
+            { "-ref": "c0980" }
+          ]
+        },
+        {
+          "-id": "q033",
+          "course": [
+            { "-ref": "c0132" },
+            { "-ref": "c0133" },
+            { "-ref": "c0153" },
+            { "-ref": "c0897" },
+            { "-ref": "c0963" }
+          ]
+        },
+        {
+          "-id": "q034",
+          "course": [
+            { "-ref": "c0132" },
+            { "-ref": "c0133" },
+            { "-ref": "c0153" },
+            { "-ref": "c0963" }
+          ]
+        },
+        {
+          "-id": "q036",
+          "course": [
+            { "-ref": "c0252" },
+            { "-ref": "c0058" },
+            { "-ref": "c0047" },
+            { "-ref": "c0746" }
+          ]
+        },
+        {
+          "-id": "q037",
+          "course": [
+            { "-ref": "c0257" },
+            { "-ref": "c0201" },
+            { "-ref": "c0072" },
+            { "-ref": "c0203" }
+          ]
+        },
+        {
+          "-id": "q038",
+          "course": [
+            { "-ref": "c0257" },
+            { "-ref": "c0201" },
+            { "-ref": "c0072" }
+          ]
+        },
+        {
+          "-id": "q039",
+          "course": [
+            { "-ref": "c0257" },
+            { "-ref": "c0201" },
+            { "-ref": "c0072" },
+            { "-ref": "c0279" }
+          ]
+        },
+        {
+          "-id": "q040",
+          "course": [
+            { "-ref": "c0455" },
+            { "-ref": "c0478" },
+            { "-ref": "c0602" },
+            { "-ref": "c0503" },
+            { "-ref": "c0203" }
+          ]
+        },
+        {
+          "-id": "q041",
+          "course": [
+            { "-ref": "c0455" },
+            { "-ref": "c0478" },
+            { "-ref": "c0602" },
+            { "-ref": "c0503" },
+            { "-ref": "c0279" },
+            { "-ref": "c0203" }
+          ]
+        },
+        {
+          "-id": "q042",
+          "course": [
+            { "-ref": "c0115" },
+            { "-ref": "c0279" },
+            { "-ref": "c0455" },
+            { "-ref": "c0106" },
+            { "-ref": "c0203" }
+          ]
+        },
+        {
+          "-id": "q043",
+          "course": [
+            { "-ref": "c0115" },
+            { "-ref": "c0279" },
+            { "-ref": "c0455" },
+            { "-ref": "c0467" },
+            { "-ref": "c0203" }
+          ]
+        },
+        {
+          "-id": "q044",
+          "course": [
+            { "-ref": "c0464" },
+            { "-ref": "c0076" },
+            { "-ref": "c0279" }
+          ]
+        },
+        {
+          "-id": "q045",
+          "course": [
+            { "-ref": "c0464" },
+            { "-ref": "c0076" }
+          ]
+        },
+        {
+          "-id": "q046",
+          "course": [
+            { "-ref": "c0464" },
+            { "-ref": "c0072" },
+            { "-ref": "c0520" },
+            { "-ref": "c0113" }
+          ]
+        },
+        {
+          "-id": "q047",
+          "course": [
+            { "-ref": "c0464" },
+            { "-ref": "c0554" }
+          ]
+        },
+        {
+          "-id": "q048",
+          "course": [
+            { "-ref": "c0411" },
+            { "-ref": "c0412" },
+            { "-ref": "c088a" },
+            { "-ref": "c088b" },
+            { "-ref": "c0418" },
+            { "-ref": "c0932" }
+          ]
+        },
+        {
+          "-id": "q049",
+          "course": [
+            { "-ref": "c0411" },
+            { "-ref": "c0432" },
+            { "-ref": "c0232" },
+            { "-ref": "c088a" },
+            { "-ref": "c088b" },
+            { "-ref": "c0443" }
+          ]
+        },
+        {
+          "-id": "q050",
+          "course": [
+            { "-ref": "c0423" },
+            { "-ref": "c0428" },
+            { "-ref": "c0430" },
+            { "-ref": "c0253" },
+            { "-ref": "c0432" }
+          ]
+        },
+        {
+          "-id": "q051",
+          "course": [
+            { "-ref": "c0444" },
+            { "-ref": "c0423" },
+            { "-ref": "c0430" },
+            { "-ref": "c0449" }
+          ]
+        },
+        {
+          "-id": "q052",
+          "course": [
+            { "-ref": "c0478" },
+            { "-ref": "c0479" },
+            { "-ref": "c0074" },
+            { "-ref": "c0742" }
+          ]
+        },
+        {
+          "-id": "q053",
+          "course": [
+            { "-ref": "c0478" },
+            { "-ref": "c0479" },
+            { "-ref": "c0076" },
+            { "-ref": "c0497" },
+            { "-ref": "c0742" }
+          ]
+        },
+        {
+          "-id": "q054",
+          "course": [
+            { "-ref": "c0478" },
+            { "-ref": "c0479" },
+            { "-ref": "c0072" },
+            { "-ref": "c0504" },
+            { "-ref": "c0742" }
+          ]
+        },
+        {
+          "-id": "q055",
+          "course": [
+            { "-ref": "c0487" },
+            { "-ref": "c0737" },
+            { "-ref": "c0730" },
+            { "-ref": "c1053" }
+          ]
+        },
+        {
+          "-id": "q056",
+          "course": [
+            { "-ref": "c0487" },
+            { "-ref": "c0737" },
+            { "-ref": "c1053" },
+            { "-ref": "c0279" }
+          ]
+        },
+        {
+          "-id": "q057",
+          "course": [
+            { "-ref": "c0487" },
+            { "-ref": "c0737" },
+            { "-ref": "c0503" },
+            { "-ref": "c0279" }
+          ]
+        },
+        {
+          "-id": "q058",
+          "course": [
+            { "-ref": "c0512" },
+            { "-ref": "c0785" },
+            { "-ref": "c0193" },
+            { "-ref": "c0515" },
+            { "-ref": "c0936" }
+          ]
+        },
+        {
+          "-id": "q059",
+          "course": [
+            { "-ref": "c0512" },
+            { "-ref": "c0785" },
+            { "-ref": "c0430" },
+            { "-ref": "c0530" }
+          ]
+        },
+        {
+          "-id": "q060",
+          "course": [
+            { "-ref": "c0512" },
+            { "-ref": "c0785" },
+            { "-ref": "c0535" },
+            { "-ref": "c0539" },
+            { "-ref": "c0936" }
+          ]
+        },
+        {
+          "-id": "q061",
+          "course": [
+            { "-ref": "c0520" },
+            { "-ref": "c1001" },
+            { "-ref": "c0072" },
+            { "-ref": "c0257" },
+            { "-ref": "c0526" }
+          ]
+        },
+        {
+          "-id": "q062",
+          "course": [
+            { "-ref": "c0520" },
+            { "-ref": "c1001" },
+            { "-ref": "c0257" },
+            { "-ref": "c0024" },
+            { "-ref": "c0532" }
+          ]
+        },
+        {
+          "-id": "q063",
+          "course": [
+            { "-ref": "c0520" },
+            { "-ref": "c1001" },
+            { "-ref": "c0534" },
+            { "-ref": "c0537" },
+            { "-ref": "c0538" }
+          ]
+        },
+        {
+          "-id": "q064",
+          "course": [
+            { "-ref": "c0602" },
+            { "-ref": "c0794" },
+            { "-ref": "c0795" },
+            { "-ref": "c0467" },
+            { "-ref": "c0835" },
+            { "-ref": "c1022" }
+          ]
+        },
+        {
+          "-id": "q065",
+          "course": [
+            { "-ref": "c0602" },
+            { "-ref": "c0812" },
+            { "-ref": "c0835" },
+            { "-ref": "c0411" }
+          ]
+        },
+        {
+          "-id": "q066",
+          "course": [
+            { "-ref": "c0602" },
+            { "-ref": "c0795" },
+            { "-ref": "c0411" },
+            { "-ref": "c0835" },
+            { "-ref": "c0812" }
+          ]
+        },
+        {
+          "-id": "q067",
+          "course": [
+            { "-ref": "c0804" },
+            { "-ref": "c0807" },
+            { "-ref": "c0808" }
+          ]
+        },
+        {
+          "-id": "q068",
+          "course": [
+            { "-ref": "c0808" },
+            { "-ref": "c0822" }
+          ]
+        },
+        {
+          "-id": "q069",
+          "course": [
+            { "-ref": "c0789" },
+            { "-ref": "c0808" }
+          ]
+        }
+      ]
+    },
+    "constraints": {
+      "constraint": [
+        {
+          "-type": "period",
+          "-course": "c0103",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c1053",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0106",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0108",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0110",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0113",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0115",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0118",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0119",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0127",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0129",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0131",
+          "timeslot": {
+            "-day": "4",
+            "-period": "4"
+          }
+        },
+        {
+          "-type": "period",
+          "-course": "c0133",
+          "timeslot": [
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c015a",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0152",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0153",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0191",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0193",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0195",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0020",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0201",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0203",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0206",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0211",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0213",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0219",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0023",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0232",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0024",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0252",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0253",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0257",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0279",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0411",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0423",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0044",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0443",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0449",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0455",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0467",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0047",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0478",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0479",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0487",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0049",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0497",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0503",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0504",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0515",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0520",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0526",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0532",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0534",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0535",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0554",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0056",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0058",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0602",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0061",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0062",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0069",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0007",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0072",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0723",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0730",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0737",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0742",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0076",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0785",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0804",
+          "timeslot": [
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0807",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "1",
+              "-period": "0"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0808",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c088a",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "2"
+            },
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0936",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "0"
+            },
+            {
+              "-day": "2",
+              "-period": "1"
+            },
+            {
+              "-day": "2",
+              "-period": "2"
+            },
+            {
+              "-day": "2",
+              "-period": "3"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0095",
+          "timeslot": [
+            {
+              "-day": "1",
+              "-period": "3"
+            },
+            {
+              "-day": "1",
+              "-period": "4"
+            },
+            {
+              "-day": "2",
+              "-period": "4"
+            },
+            {
+              "-day": "3",
+              "-period": "0"
+            },
+            {
+              "-day": "3",
+              "-period": "1"
+            },
+            {
+              "-day": "3",
+              "-period": "2"
+            },
+            {
+              "-day": "3",
+              "-period": "3"
+            },
+            {
+              "-day": "3",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "0"
+            },
+            {
+              "-day": "4",
+              "-period": "1"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "period",
+          "-course": "c0998",
+          "timeslot": [
+            {
+              "-day": "0",
+              "-period": "0"
+            },
+            {
+              "-day": "0",
+              "-period": "1"
+            },
+            {
+              "-day": "0",
+              "-period": "2"
+            },
+            {
+              "-day": "0",
+              "-period": "3"
+            },
+            {
+              "-day": "0",
+              "-period": "4"
+            },
+            {
+              "-day": "4",
+              "-period": "2"
+            },
+            {
+              "-day": "4",
+              "-period": "3"
+            },
+            {
+              "-day": "4",
+              "-period": "4"
+            }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c1001",
+          "room": [
+            { "-ref": "rB" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c1022",
+          "room": [
+            { "-ref": "rG" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0103",
+          "room": [
+            { "-ref": "r51" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c1053",
+          "room": { "-ref": "r31" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0106",
+          "room": [
+            { "-ref": "r27" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0108",
+          "room": [
+            { "-ref": "r27" },
+            { "-ref": "rA" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0110",
+          "room": [
+            { "-ref": "r37" },
+            { "-ref": "r31" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0113",
+          "room": [
+            { "-ref": "r31" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0115",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "rG" },
+            { "-ref": "rA" },
+            { "-ref": "rDS1" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0118",
+          "room": { "-ref": "r51" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0119",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r27" },
+            { "-ref": "rG" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0127",
+          "room": [
+            { "-ref": "rA" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0129",
+          "room": [
+            { "-ref": "rF" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0131",
+          "room": [
+            { "-ref": "r31" },
+            { "-ref": "rB" },
+            { "-ref": "rG" },
+            { "-ref": "r50" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0132",
+          "room": { "-ref": "r36" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0133",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r37" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c015a",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "rA" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0152",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r37" },
+            { "-ref": "r38" },
+            { "-ref": "rF" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0153",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "r31" },
+            { "-ref": "r50" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0019",
+          "room": { "-ref": "r36" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0191",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r51" },
+            { "-ref": "rF" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0193",
+          "room": [
+            { "-ref": "r27" },
+            { "-ref": "rF" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0195",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r31" },
+            { "-ref": "rL" },
+            { "-ref": "r50" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0020",
+          "room": [
+            { "-ref": "r37" },
+            { "-ref": "rB" },
+            { "-ref": "r50" },
+            { "-ref": "r52" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0203",
+          "room": { "-ref": "r31" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0206",
+          "room": [
+            { "-ref": "r27" },
+            { "-ref": "r51" },
+            { "-ref": "rB" },
+            { "-ref": "r50" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0211",
+          "room": { "-ref": "rA" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0213",
+          "room": [
+            { "-ref": "r51" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0217",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "rA" },
+            { "-ref": "rDS1" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0219",
+          "room": [
+            { "-ref": "r52" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0221",
+          "room": [
+            { "-ref": "rL" },
+            { "-ref": "r50" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0023",
+          "room": [
+            { "-ref": "rL" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0230",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r38" },
+            { "-ref": "rA" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0238",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r50" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0024",
+          "room": [
+            { "-ref": "r37" },
+            { "-ref": "r31" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0252",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "rG" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0253",
+          "room": [
+            { "-ref": "r51" },
+            { "-ref": "rF" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0257",
+          "room": [
+            { "-ref": "rL" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0279",
+          "room": [
+            { "-ref": "r37" },
+            { "-ref": "r38" },
+            { "-ref": "r51" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0411",
+          "room": { "-ref": "rDS2" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0412",
+          "room": { "-ref": "rDS2" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0418",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "rF" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0423",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0428",
+          "room": [
+            { "-ref": "rG" },
+            { "-ref": "rA" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0430",
+          "room": { "-ref": "rL" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0432",
+          "room": [
+            { "-ref": "rD" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0443",
+          "room": [
+            { "-ref": "rB" },
+            { "-ref": "rG" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0449",
+          "room": [
+            { "-ref": "rB" },
+            { "-ref": "r50" },
+            { "-ref": "r52" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0464",
+          "room": [
+            { "-ref": "rD" },
+            { "-ref": "rF" },
+            { "-ref": "rA" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0467",
+          "room": [
+            { "-ref": "r51" },
+            { "-ref": "rF" },
+            { "-ref": "r52" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0047",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "rB" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0478",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r37" },
+            { "-ref": "rB" },
+            { "-ref": "rG" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0479",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r51" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0049",
+          "room": { "-ref": "r27" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0497",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r37" },
+            { "-ref": "r27" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0503",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "r27" },
+            { "-ref": "r51" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0504",
+          "room": { "-ref": "rN" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0512",
+          "room": [
+            { "-ref": "r51" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0526",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r37" },
+            { "-ref": "r31" },
+            { "-ref": "rF" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0530",
+          "room": [
+            { "-ref": "r27" },
+            { "-ref": "rB" },
+            { "-ref": "rA" },
+            { "-ref": "r52" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0532",
+          "room": { "-ref": "rF" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0535",
+          "room": [
+            { "-ref": "rDS1" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0537",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "r27" },
+            { "-ref": "r51" },
+            { "-ref": "rA" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0538",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "rF" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0056",
+          "room": [
+            { "-ref": "r37" },
+            { "-ref": "r31" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0058",
+          "room": [
+            { "-ref": "rL" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0602",
+          "room": [
+            { "-ref": "r52" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0061",
+          "room": [
+            { "-ref": "rF" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0062",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "rG" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0069",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r38" },
+            { "-ref": "rF" },
+            { "-ref": "rA" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0007",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r38" },
+            { "-ref": "r27" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0072",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r31" },
+            { "-ref": "r51" },
+            { "-ref": "rD" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0730",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "r37" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0737",
+          "room": [
+            { "-ref": "r31" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0074",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "rG" },
+            { "-ref": "r50" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0742",
+          "room": [
+            { "-ref": "rD" },
+            { "-ref": "r50" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0746",
+          "room": { "-ref": "rF" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0076",
+          "room": { "-ref": "rL" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0785",
+          "room": { "-ref": "r51" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0789",
+          "room": [
+            { "-ref": "rD" },
+            { "-ref": "rL" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0794",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "rL" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0795",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "rA" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0804",
+          "room": { "-ref": "rB" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0807",
+          "room": [
+            { "-ref": "rDS1" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0808",
+          "room": [
+            { "-ref": "r25" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0812",
+          "room": { "-ref": "r37" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0835",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r38" },
+            { "-ref": "r27" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c088b",
+          "room": { "-ref": "rDS1" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0897",
+          "room": { "-ref": "r31" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0932",
+          "room": [
+            { "-ref": "r38" },
+            { "-ref": "r27" },
+            { "-ref": "rD" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0936",
+          "room": { "-ref": "r25" }
+        },
+        {
+          "-type": "room",
+          "-course": "c0095",
+          "room": [
+            { "-ref": "r31" },
+            { "-ref": "r27" },
+            { "-ref": "rDS1" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0955",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r27" },
+            { "-ref": "r50" },
+            { "-ref": "r52" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0883",
+          "room": [
+            { "-ref": "r27" },
+            { "-ref": "rG" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0975",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r27" },
+            { "-ref": "rB" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0980",
+          "room": [
+            { "-ref": "r31" },
+            { "-ref": "rD" },
+            { "-ref": "r50" },
+            { "-ref": "rN" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0983",
+          "room": [
+            { "-ref": "r36" },
+            { "-ref": "r38" },
+            { "-ref": "rF" },
+            { "-ref": "rG" },
+            { "-ref": "rL" },
+            { "-ref": "r52" },
+            { "-ref": "rDS2" }
+          ]
+        },
+        {
+          "-type": "room",
+          "-course": "c0998",
+          "room": [
+            { "-ref": "rD" },
+            { "-ref": "rDS1" },
+            { "-ref": "rN" }
+          ]
+        }
+      ]
+    }
+  }
+}

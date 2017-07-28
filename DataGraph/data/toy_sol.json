@@ -1,0 +1,17 @@
+﻿[
+  ["SceCosC","rC",2,2],
+  ["SceCosC","rC",3,0],
+  ["ArcTec","rB",0,2],
+  ["ArcTec","rB",1,0],
+  ["ArcTec","rB",3,1],
+  ["TecCos","rC",0,1],
+  ["TecCos","rC",1,1],
+  ["TecCos","rC",2,3],
+  ["TecCos","rC",4,1],
+  ["TecCos","rC",4,2],
+  ["Geotec","rA",0,0],
+  ["Geotec","rA",1,0],
+  ["Geotec","rA",1,2],
+  ["Geotec","rA",2,2],
+  ["Geotec","rA",4,3]
+]

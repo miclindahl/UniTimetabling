@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Timetabling Graphs</title>
+    <style>
+        .node {
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+
+        .event {
+            fill: red;
+            cursor: move;
+        }
+
+        .teacher {
+            fill: #e6e600;
+            cursor: move;
+        }
+
+        .curricula {
+            fill: green;
+            cursor: move;
+        }
+
+        .timeslot {
+            fill: blue;
+            cursor: move;
+        } 
+         .room {
+            fill: black;
+            cursor: move;
+        }
+
+        .nodetext {
+            pointer-events: none;
+            font: 10px sans-serif;
+        }
+
+        .teacherlink {
+            stroke: #e6e600;
+            stroke-width: 2px;
+        }
+
+        .curriculumlink {
+            stroke: green;
+            stroke-width: 2px;
+        }
+
+        .unavailabilitylink {
+            stroke: blue;
+            stroke-width: 2px;
+        }
+
+        .solutionlink {
+            stroke: black;
+            stroke-width: 3px;
+        }
+        .addlink {
+            stroke: lightgreen;
+            stroke-width: 3px;
+        }
+        .removelink {
+            stroke: red;
+            stroke-width: 3px;
+             stroke-dasharray: 5;
+        }
+    </style>
+</head>
+<body>
+<h1>University Timetabling Graphs</h1>
+Go ahead and explore the ITC datasets. Instances and solutions can be found here: <a href="http://satt.diegm.uniud.it/ctt/">http://satt.diegm.uniud.it/ctt/</a>
+<div id="option">
+    Instance
+    <select name="dataset" id="dataset">
+        <option value="toy">toy</option>
+        <option value="comp01" selected>comp01</option>
+        <option value="comp05">comp05</option>
+        <option value="comp10">comp10</option>
+        <option value="comp12">comp12</option>
+        <option value="comp14">comp14</option>
+        <option value="comp18">comp18</option>
+    </select> <br/>
+    Include:<br/>
+    Teachers <input type="checkbox" id="cb_teachers" checked>
+    Curricula <input type="checkbox" id="cb_curricula" checked><br/>
+    Timeslots <input type="checkbox" id="cb_timeslots">
+    Rooms <input type="checkbox" id="cb_rooms"><br/>
+    Unavailabilities <input type="checkbox" id="cb_unavilabilities">
+    Best known solution <input type="checkbox" id="cb_solution">
+    <br/>
+    <input name="updateButton"
+           type="button"
+           value="Draw Graph"
+           onclick="CreateGraph()"/>
+</div>
+<script src='http://d3js.org/d3.v3.min.js'></script>
+<script>
+    var width = 1400,
+        height = 1000;
+
+    var svg;
+    var data;
+    var nodes;
+    var nodesDict;
+    var courses;
+    var teachers;
+    var links;
+    var resources;
+    var days;
+    var periodsperday;
+    var curricula;
+    var timeslots;
+    var rooms;
+    var data;
+    var includeSolution;
+    var includeTeachers;
+    var includeCurricula;
+    var includeUnavilabilities;
+    var includeSolution;
+    var includeRooms;
+    var includeTimeslots;
+    var solution;
+
+    var pertubations = null;
+
+    //find resources to have included
+    var includedResources = null;
+    includeCommonResource = false;
+
+    function UpdatedIncludedResources() {
+        if (pertubations == null) {
+            includedResources = null;
+            return;
+        }
+        includedResources = [];
+        for (var i in pertubations) {
+            var newres = [pertubations[i][0], pertubations[i][1], pertubations[i][2] + "," + pertubations[i][3]];
+            for (var j in newres) {
+                if (includedResources.indexOf(newres[j]) === -1) {
+                    includedResources.push(newres[j]);
+                }
+            }
+        }
+    }
+
+
+    function isIncludedResource(res) {
+        if (includedResources == null) return true;
+        if (includedResources.some(function(arrVal) {
+            return res.id === arrVal;
+        })) return true;
+        if (includeCommonResource) {
+            
+            if (links.some(function(arrval) {
+                return (arrval.target.id === res.id &&
+                    includedResources.some(function(arrVal2) {
+                        return arrval.source.id === arrVal2;
+                    }));
+            })) return true;
+            
+        }
+        return false;
+    }
+
+    function isIncludedLink(link) {
+        if (includedResources == null) return true;
+        return nodes.filter(isIncludedResource).some(function (arrVal) {
+                return (link.source.id === arrVal.id);
+            }) &&
+            nodes.filter(isIncludedResource).some(function (arrVal) {
+                return (link.target.id === arrVal.id);
+            });
+    }
+
+
+    function CreateGraph() {
+        dataset = d3.select("#dataset").node().value;
+
+        includeTeachers = d3.select("#cb_teachers").property("checked");
+        includeCurricula = d3.select("#cb_curricula").property("checked");
+        includeUnavilabilities = d3.select("#cb_unavilabilities").property("checked");
+        includeSolution = d3.select("#cb_solution").property("checked");
+        includeRooms = d3.select("#cb_rooms").property("checked");
+        includeTimeslots = d3.select("#cb_timeslots").property("checked");
+
+        UpdatedIncludedResources();
+        d3.json("data/" + dataset + ".json",
+            function(json) {
+                data = json;
+                DataExtract();
+               
+                if (includeSolution) {
+                    SolutionExtract();
+                }
+                else DrawGraph();
+            });
+    }
+
+
+    function DataExtract() {
+        nodes = [];
+        nodesDict = {};
+        courses = [];
+        teachers = {};
+        links = [];
+        resources = [];
+        curricula = [];
+        timeslots = [];
+        rooms = [];
+
+        days = parseInt(data.instance.descriptor.days["-value"]);
+        periodsperday = parseInt(data.instance.descriptor.periods_per_day["-value"]);
+
+
+        for (var c in data.instance.courses.course) {
+            var id = data.instance.courses.course[c]["-id"];
+            var teacher = data.instance.courses.course[c]["-teacher"];
+            var students = data.instance.courses.course[c]["-students"];
+
+            var node = {
+                id: id,
+                students: students,
+                nodetype: "event",
+                included: isIncludedResource(id)
+            };
+            courses.push(node);
+            nodes.push(node);
+            nodesDict[id] = node;
+            if (includeTeachers) {
+                if (teachers[teacher] == undefined) {
+                    teachers[teacher] = true;
+                    var node = {
+                        id: teacher,
+                        nodetype: "teacher",
+                        included: isIncludedResource(id)
+                    };
+                    nodes.push(node);
+                    resources.push(node);
+                    nodesDict[teacher] = node;
+                }
+                links.push({
+                    source: nodesDict[id],
+                    target: nodesDict[teacher],
+                    linktype: "teacherlink"
+                });
+            }
+        }
+
+        if (includeCurricula) {
+            for (var q in data.instance.curricula.curriculum) {
+                var id = data.instance.curricula.curriculum[q]["-id"];
+                curricula.push(id);
+                var node = {
+                    id: id,
+                    nodetype: "curricula",
+                    included: isIncludedResource(id)
+                };
+                nodes.push(node);
+                resources.push(node);
+                nodesDict[id] = node;// nodes.length - 1;
+
+                for (var c in data.instance.curricula.curriculum[q].course) {
+                    var course = data.instance.curricula.curriculum[q].course[c]["-ref"];
+                    if (course == undefined) continue;
+                    links.push({
+                        target: nodesDict[id],
+                        source: nodesDict[course],
+                        linktype: "curriculumlink"
+                    });
+                }
+            }
+        }
+
+        if (includeTimeslots) {
+            for (var i = 0; i < days; i++) {
+                for (var j = 0; j < periodsperday; j++) {
+                    var id = i + "," + j;
+                    var node = {
+                        id: id,
+                        nodetype: "timeslot",
+                        included: isIncludedResource(id)
+                    };
+                    timeslots.push(node);
+                    nodes.push(node);
+                    nodesDict[id] = node;// nodes.length - 1;
+                }
+            }
+        }
+
+        if (includeRooms) {
+            for (var r in data.instance.rooms.room) {
+                var room = data.instance.rooms.room[r];
+                var id = room["-id"];
+                var node = {
+                    id: id,
+                    size: room["-size"],
+                    nodetype: "room",
+                    included: isIncludedResource(id)
+                };
+                rooms.push(node);
+                nodes.push(node);
+                nodesDict[id] = node;// nodes.length - 1;
+            }
+
+        }
+
+        if (includeUnavilabilities) {
+            for (var c in data.instance.constraints.constraint) {
+
+                var constraint = data.instance.constraints.constraint[c];
+
+                if (constraint["-type"] === "period") {
+                    var course = constraint["-course"];
+                    for (var t in constraint.timeslot) {
+                        var day = constraint.timeslot[t]["-day"];
+                        var period = constraint.timeslot[t]["-period"];
+                        if (day == undefined) {
+                            console.log(constraint.timeslot[t]);
+                            //happens if only on constraint .. ie no array
+                            continue;
+                        }
+
+                        links.push({
+                            source: nodesDict[course],
+                            target: nodesDict[day + "," + period],
+                            linktype: "unavailabilitylink"
+                        });
+                    }
+                }
+            }
+        }
+        
+       
+    }
+
+
+    function DisruptionExtract() {
+        for (var i in pertubations) {
+            var c = nodesDict[pertubations[i][0]];
+            //if a room or timeslot hasn't changed it should not be drawn.
+            if (includeTimeslots) {
+                var ts = pertubations[i][2] + "," + pertubations[i][3];
+                var link = {
+                    source: c,
+                    target: nodesDict[ts],
+                    linktype: (pertubations[i][4] === 0 ? "removelink" : "addlink")
+                };
+                links.push(link);
+            }
+            if (includeRooms) {
+                var r = pertubations[i][1];
+                var link = {
+                    source: c,
+                    target: nodesDict[r],
+                    linktype: (pertubations[i][4] === 0 ? "removelink" : "addlink")
+                };
+                links.push(link);
+            }
+        }
+    }
+
+    function SolutionExtract() {
+        d3.json("data/" + dataset + "_sol.json",
+            function (solution) {
+
+                for (var i in solution) {
+                    var c = nodesDict[solution[i][0]];
+                    if (includeTimeslots) {
+                        var ts = solution[i][2] + "," + solution[i][3];
+                        var link = {
+                            source: c,
+                            target: nodesDict[ts],
+                            linktype: "solutionlink"
+                        };
+                        links.push(link);
+                    }
+                    if (includeRooms) {
+                        var r = solution[i][1];
+                        var link = {
+                            source: c,
+                            target: nodesDict[r],
+                            linktype: "solutionlink"
+                        };
+                        links.push(link);
+                    }
+                }
+                DrawGraph();
+            });
+    }
+
+    function DrawGraph() {
+        DisruptionExtract();
+        //Start drawing
+        if (svg == undefined) {
+            svg = d3.select('body')
+                .append('svg')
+                .attr('width', width)
+                .attr('height', height);
+        } else {
+            svg.selectAll('*').remove();
+        }
+
+        var force = d3.layout.force()
+            .size([width, height])
+            .charge(-200)
+            .linkDistance(50)
+            .nodes(nodes.filter(isIncludedResource))
+            .links(links.filter(isIncludedLink))
+            .on("tick", tick);
+
+        force.linkStrength(function(link) {
+            if (link.linktype === 'unavailabilitylink') return 0.01;
+            if (link.linktype === 'solutionlink') return 0.1;
+            return 1;
+        });
+
+
+        var link = svg.selectAll('.link')
+            .data(links.filter(isIncludedLink))
+            .enter()
+            .append('line')
+            .attr('class', function(d) { return d.linktype; });
+
+
+        var node = svg.selectAll('.node')
+            .data(resources.filter(isIncludedResource))
+            .enter()
+            .append("g")
+            .attr('class', function(d) { return d.nodetype; })
+            .call(force.drag());
+        node.append('circle')
+            .attr('r', 10);
+
+        node.append("title")
+            //  .attr("dx", "10")
+            //  .attr("dy", "-10")
+            .text(function(d) { return d.nodetype + "\n" + d.id; });
+
+        var nodecourse = svg.selectAll('.courses')
+            .data(courses.filter(isIncludedResource))
+            .enter()
+            .append("g")
+            .attr('class', function(d) { return d.nodetype; })
+            .call(force.drag());
+
+        nodecourse.append("rect")
+            .attr("width", 30)
+            .attr("height", 30)
+            .attr("x", "-15")
+            .attr("y", "-15");
+        nodecourse.append("title")
+            .text(function(d) { return "Course\nid: " + d.id + "\nStudents: " + d.students; });
+
+        var nodetimeslot = svg.selectAll('.timeslots')
+            .data(timeslots.filter(isIncludedResource))
+            .enter()
+            .append("g")
+            .attr('class', function(d) { return d.nodetype; })
+            .call(force.drag());
+        nodetimeslot.append("rect")
+            .attr("width", 30)
+            .attr("height", 30)
+            .attr("x", "-15")
+            .attr("y", "-15");
+        nodetimeslot.append("title")
+            .text(function(d) { return "Timeslot\n" + d.id; });
+
+        var noderoom = svg.selectAll('.rooms')
+            .data(rooms.filter(isIncludedResource))
+            .enter()
+            .append("g")
+            .attr('class', function(d) { return d.nodetype; })
+            .call(force.drag());
+        noderoom.append("rect")
+            .attr("width", 30)
+            .attr("height", 30)
+            .attr("x", "-15")
+            .attr("y", "-15");
+        noderoom.append("title")
+            .text(function(d) { return "Room\nid: " + d.id + "\nsize: " + d.size; });
+
+
+        function tick() {
+            node.attr("transform",
+                function(d, i) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+            nodecourse.attr("transform",
+                function(d, i) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+
+            nodetimeslot.attr("transform",
+                function(d, i) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+            noderoom.attr("transform",
+                function(d, i) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+
+            link.attr('x1', function(d) { return d.source.x; })
+                .attr('y1', function(d) { return d.source.y; })
+                .attr('x2', function(d) { return d.target.x; })
+                .attr('y2', function(d) { return d.target.y; });
+
+        }
+
+        //cool feature.. add context menu.. to delete add new nodes and make it easier to grasp.
+        //https://github.com/patorjk/d3-context-menu
+
+        //legend
+        svg.append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 150)
+            .attr("height", 130)
+            .attr("fill", "white")
+            .attr("stroke-width", "2px")
+            .attr("stroke", "black");
+
+        svg.append("rect")
+            .attr("x", 20 - 15)
+            .attr("y", 20 - 15)
+            .attr("width", 20)
+            .attr("height", 20)
+            .attr("class", "event");
+        svg.append("text")
+            .attr("x", 30)
+            .attr("y", 23)
+            .attr("font-size", "16px")
+            .text("Course (" + courses.length + ")");
+
+        svg.append("circle")
+            .attr("cx", 15)
+            .attr("cy", 40)
+            .attr("r", 10)
+            .attr("class", "teacher");
+        svg.append("text")
+            .attr("x", 30)
+            .attr("y", 45)
+            .attr("font-size", "16px")
+            .text("Teacher (" + Object.keys(teachers).length + ")");
+        svg.append("circle")
+            .attr("cx", 15)
+            .attr("cy", 65)
+            .attr("r", 10)
+            .attr("class", "curricula");
+
+        svg.append("text")
+            .attr("x", 30)
+            .attr("y", 70)
+            .attr("font-size", "16px")
+            .text("Curriculum (" + curricula.length + ")");
+
+        svg.append("rect")
+            .attr("x", 20 - 15)
+            .attr("y", 80)
+            .attr("width", 20)
+            .attr("height", 20)
+            .attr("class", "timeslot");
+        svg.append("text")
+            .attr("x", 30)
+            .attr("y", 95)
+            //.attr("font-family", "sans-serif")
+            .attr("font-size", "16px")
+            .text("Timeslot (" + days * periodsperday + ")");
+svg.append("rect")
+            .attr("x", 20 - 15)
+            .attr("y", 105)
+            .attr("width", 20)
+            .attr("height", 20)
+            .attr("class", "Room");
+        svg.append("text")
+            .attr("x", 30)
+            .attr("y", 120)
+            //.attr("font-family", "sans-serif")
+            .attr("font-size", "16px")
+            .text("Room (" + rooms.length + ")");
+
+        force.start();
+    }
+</script>
+</body>
+</html>
