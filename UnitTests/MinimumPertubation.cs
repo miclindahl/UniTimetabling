@@ -16,20 +16,16 @@ namespace UnitTests
     {
         private bool ConsoleToFile = false;
 
-     //   private ProblemFormulation formulation = ProblemFormulation.UD2NoOverbook;
         private ProblemFormulation formulation = ProblemFormulation.UD2;
 
         [Test, Combinatorial]
         //[TestCaseSource(nameof(TestDatasetsITC2007))]
         public void QualityRecovering([Values(
             QualityRecoveringOptimizer.DisruptionTypes.CurriculumFourCoursesInsert,
-         //   QualityRecoveringOptimizer.DisruptionTypes.CurriculumFourCoursesInsertWithCC,
                 QualityRecoveringOptimizer.DisruptionTypes.RandomRoomRandomdayRemoved,
                 QualityRecoveringOptimizer.DisruptionTypes.OneTimeslotUnavailable,
                 QualityRecoveringOptimizer.DisruptionTypes.OneAssignmentUnavailbility
-            )] QualityRecoveringOptimizer.DisruptionTypes disruption, [Values(
-            //ITC_Comp01,ITC_Comp05,ITC_Comp10,ITC_Comp12,ITC_Comp14,ITC_Comp18
-            
+            )] QualityRecoveringOptimizer.DisruptionTypes disruption, [Values(            
                 ITC_Comp01,
                 ITC_Comp02,
                 ITC_Comp03,
