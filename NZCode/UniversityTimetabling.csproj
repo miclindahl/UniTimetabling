@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="DataObjects.cs" />
     <Compile Include="DataObjectsExtension.cs" />
-    <Compile Include="Dynamic.cs" />
+    <Compile Include="QualityRecoveringOptimizer.cs" />
     <Compile Include="Heuristics.cs" />
     <Compile Include="MIPModels\CCTModel.cs" />
     <Compile Include="MIPModels\Helper.cs" />

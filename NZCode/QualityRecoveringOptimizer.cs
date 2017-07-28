@@ -7,7 +7,7 @@ using UniversityTimetabling.MIPModels;
 
 namespace UniversityTimetabling
 {
-    public class Dynamic
+    public class QualityRecoveringOptimizer
     {
         private ProblemFormulation formulation;
         private Data data;
@@ -33,7 +33,7 @@ namespace UniversityTimetabling
         }
 
 
-        public Dynamic(Data data, Solution solutionBefore, ProblemFormulation formulation, CCTModel.MIPModelParameters mipModelParameters)
+        public QualityRecoveringOptimizer(Data data, Solution solutionBefore, ProblemFormulation formulation, CCTModel.MIPModelParameters mipModelParameters)
         {
             this.data = data;
             this.formulation = formulation;

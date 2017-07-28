@@ -21,13 +21,13 @@ namespace UnitTests
 
         [Test, Combinatorial]
         //[TestCaseSource(nameof(TestDatasetsITC2007))]
-        public void MinimumPertubations([Values(
-            Dynamic.DisruptionTypes.CurriculumFourCoursesInsert,
-         //   Dynamic.DisruptionTypes.CurriculumFourCoursesInsertWithCC,
-                Dynamic.DisruptionTypes.RandomRoomRandomdayRemoved,
-                Dynamic.DisruptionTypes.OneTimeslotUnavailable,
-                Dynamic.DisruptionTypes.OneAssignmentUnavailbility
-            )] Dynamic.DisruptionTypes disruption, [Values(
+        public void QualityRecovering([Values(
+            QualityRecoveringOptimizer.DisruptionTypes.CurriculumFourCoursesInsert,
+         //   QualityRecoveringOptimizer.DisruptionTypes.CurriculumFourCoursesInsertWithCC,
+                QualityRecoveringOptimizer.DisruptionTypes.RandomRoomRandomdayRemoved,
+                QualityRecoveringOptimizer.DisruptionTypes.OneTimeslotUnavailable,
+                QualityRecoveringOptimizer.DisruptionTypes.OneAssignmentUnavailbility
+            )] QualityRecoveringOptimizer.DisruptionTypes disruption, [Values(
             //ITC_Comp01,ITC_Comp05,ITC_Comp10,ITC_Comp12,ITC_Comp14,ITC_Comp18
             
                 ITC_Comp01,
@@ -70,7 +70,7 @@ namespace UnitTests
             solutionBefore.Read(dataPath + @"ITC2007\sol\" + name + "-UD2" + ".sol");
             Console.WriteLine(solutionBefore.AnalyzeSolution());
 
-            var minimumPertubation = new Dynamic(data, solutionBefore, formulation, modelParameters)
+            var minimumPertubation = new QualityRecoveringOptimizer(data, solutionBefore, formulation, modelParameters)
             {
                 Timelimit = 60*60*10,
                 ExtraPerubations =  100,
@@ -149,7 +149,7 @@ namespace UnitTests
                 var disruptionname = nameof(MinimumPertubationsAssignments) + n;
 
                 
-                var minimumPertubation = new Dynamic(data, solutionBefore, formulation, modelParameters)
+                var minimumPertubation = new QualityRecoveringOptimizer(data, solutionBefore, formulation, modelParameters)
                 {
                     Timelimit = 60*60,
                     ExtraPerubations = 0,
@@ -176,7 +176,7 @@ namespace UnitTests
         }
 
 
-        private static void RunPertubationTest(int seed, Dynamic minimumPertubation, Solution solutionBefore,
+        private static void RunPertubationTest(int seed, QualityRecoveringOptimizer minimumPertubation, Solution solutionBefore,
             string disruptionname, string name, int affected,string entitiesdisrupted)
         {
             var solutions = minimumPertubation.Run();
