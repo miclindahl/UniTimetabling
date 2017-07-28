@@ -18,6 +18,7 @@ The projects contains the following:
 
 ## A strategic view on University Timetabling.
 The purpose is to share the code made for the computational results for the article "A Strategic View on University Timetabling".
+The results can be created by running the unit test MultiObjectiveTests.cs -> MultiObjSolveExhausted
 This can be found in the code:
 * Two additional strategic objectives described in the article: Total Room Capacity and number of Timeslots
 * Implementation of Epsilon-method for bi-objective optimization.
@@ -45,7 +46,7 @@ The purpose is to encourage future research in this direction and give researche
 
 
 ## Quality Recovering of University Timetables
-All results from the paper can be reproduced by running the unit test in MinimumPertubation.cs called Minimumperturbation. 
+All results from the paper can be reproduced by running the unit test in MinimumPertubation.cs called QualityRecovering 
 * An algorithm for Quality recover of University timetables
 * A bi-objective method to find trade-off between perturbations and quality.
 * generic framework to test different kinds of disruptions to the timetable.
