@@ -74,8 +74,6 @@ namespace UnitTests
          ITC_Comp18,
         };
 
-
-
         public const string Udine1 = @"Udine\Udine1.xml";
         public const string Udine2 = @"Udine\Udine2.xml";
         public const string Udine3 = @"Udine\Udine3.xml";
@@ -83,7 +81,7 @@ namespace UnitTests
         public const string Erlangen2012_1 = @"Erlangen\erlangen2012_1.xml";
         public const string Erlangen2012_2 = @"Erlangen\erlangen2012_2.xml";
         public const string Erlangen2014_1 = @"Erlangen\erlangen2014_1.xml";
-        private readonly List<string> TestDatasetsErlangen = new List<string>() {
+        public readonly List<string> TestDatasetsErlangen = new List<string>() {
             Erlangen2012_1,
             Erlangen2012_2,
             Erlangen2014_1

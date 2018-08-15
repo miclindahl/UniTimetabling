@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gurobi75.NET">
-      <HintPath>..\..\..\..\..\gurobi751\win64\bin\Gurobi75.NET.dll</HintPath>
+    <Reference Include="Gurobi80.NET">
+      <HintPath>..\..\..\gurobi800\win64\bin\Gurobi80.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

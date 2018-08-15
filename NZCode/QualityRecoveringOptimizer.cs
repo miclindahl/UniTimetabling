@@ -63,7 +63,8 @@ namespace UniversityTimetabling
             model.SetObjective(1, 0, 0);
             var sol = new List<Tuple<int, Solution, int>>();
             var currentObjective = 0;
-            for (var pertubations = minperb; pertubations <= minperb + ExtraPerubations && pertubations <= MaxTotalPertubations; pertubations++)
+            var maxPerturbations = Math.Max(minperb + ExtraPerubations, MaxTotalPertubations);
+            for (var pertubations = minperb; pertubations <= maxPerturbations; pertubations++)
             {
                 Console.WriteLine($"pertubations = {pertubations}");
 

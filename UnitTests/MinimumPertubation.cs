@@ -69,8 +69,8 @@ namespace UnitTests
             var minimumPertubation = new QualityRecoveringOptimizer(data, solutionBefore, formulation, modelParameters)
             {
                 Timelimit = 60*60*10,
-                ExtraPerubations =  100,
-                MaxTotalPertubations = 20,
+                ExtraPerubations =  5,
+                MaxTotalPertubations = 15,
                 SolPerPertubation = 1,
                 PerturbationObjectEqual = true,
 			};
