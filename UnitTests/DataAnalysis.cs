@@ -44,7 +44,7 @@ namespace UnitTests
             Console.WriteLine($"Courses: {data.Courses.Count} Lectures: {data.Courses.Sum(c => c.Lectures)}");
 			Console.WriteLine($"Total timeslots: {data.TimeSlots.Count}");
 			Console.WriteLine($"Total seats: {data.Rooms.Sum(r => r.Capacity)}");
-          
+            Console.WriteLine($"Average courses per curriculum: {data.Curricula.Average(q => q.Courses.Count) : 0.00} ");
 
             var includedRooms = data.Rooms;
             DisplayRoomStats("original",includedRooms.ToDictionary(r => r,r => 1), data);

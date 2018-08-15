@@ -47,7 +47,7 @@ namespace UniversityTimetabling
         }
 
 
-        public List<Tuple<int, Solution, int>> Run()
+        public List<Tuple<int, Solution, int, int>> Run()
         {
 
             var before = (int)solutionBefore.Objective;
@@ -56,12 +56,12 @@ namespace UniversityTimetabling
             //model.Fixsol(false);
             //model.SetProxConstraint(10);
             var feasible = model.Optimize(Timelimit);
-            if (!feasible) return new List<Tuple<int, Solution, int>>();
+            if (!feasible) return new List<Tuple<int, Solution, int, int>>();
             var minperb = (int)model.Objective;
 
             //Find best objective
             model.SetObjective(1, 0, 0);
-            var sol = new List<Tuple<int, Solution, int>>();
+            var sol = new List<Tuple<int, Solution, int,int>>();
             var currentObjective = 0;
             var maxPerturbations = Math.Max(minperb + ExtraPerubations, MaxTotalPertubations);
             for (var pertubations = minperb; pertubations <= maxPerturbations; pertubations++)
@@ -98,7 +98,7 @@ namespace UniversityTimetabling
 		            var solution = new Solution(data, formulation);
 		            solution.SetAssignments(model.GetAssignments());
 		            solution.AnalyzeSolution();
-		            sol.Add(Tuple.Create(pertubations, solution, model.RunTime));
+		            sol.Add(Tuple.Create(pertubations, solution, model.RunTime, (int) Math.Ceiling(model.ObjBound)));
 		            DisplayPertubations(solutionBefore._assignments.ToList(), solututionAfter._assignments.ToList());
 		            //to pertubate more.
 		            model.RemoveCurrentSolution();

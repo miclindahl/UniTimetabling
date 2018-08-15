@@ -68,12 +68,13 @@ namespace UnitTests
 
             var minimumPertubation = new QualityRecoveringOptimizer(data, solutionBefore, formulation, modelParameters)
             {
-                Timelimit = 60*60*10,
+                Timelimit = 60*60,
                 ExtraPerubations =  5,
                 MaxTotalPertubations = 15,
                 SolPerPertubation = 1,
                 PerturbationObjectEqual = true,
-			};
+                AbortSolverWhenNoImprovement = false
+            };
 	        string entitiesdisrupted;
 			var affected = minimumPertubation.Disrupt(disruption, seed, out entitiesdisrupted);
 
@@ -250,14 +251,14 @@ namespace UnitTests
             var allfile = @"c:\temp\minimumpertubation\summaryall.csv";
             if (!File.Exists(allfile))
                 File.AppendAllText(allfile,
-                    $"date;disruptiontype;seed;dataset;solbefore;affected;disrupted;pertubations;solution;runtime;pertubationsScaled;solutionScaled");
+                    $"date;disruptiontype;seed;dataset;solbefore;affected;disrupted;pertubations;solution;runtime;pertubationsScaled;solutionScaled;lowerbound");
 
             foreach (var solution in solutions)
             {
                 File.AppendAllText(allfile,
                     $"\n{time};{disruptionname};{seed};{name};{(int) solutionBefore.Objective};{affected};{entitiesdisrupted};{solution.Item1};{(int) solution.Item2.Objective};{solution.Item3};" +
                     $"{(Math.Abs(solutions.Max(t => t.Item1) - solutions.Min(t => t.Item1)) < 0.5 ? 1.00 : (double) (solution.Item1 - solutions.Min(t => t.Item1))/(solutions.Max(t => t.Item1) - solutions.Min(t => t.Item1))) : 0.0000};" +
-                    $"{(Math.Abs(solutions.Max(t => t.Item2.Objective) - solutions.Min(t => t.Item2.Objective)) < 0.5 ? 0.0 : (double)(solution.Item2.Objective - solutions.Min(t => t.Item2.Objective)) / (solutions.Max(t => t.Item2.Objective) - solutions.Min(t => t.Item2.Objective))) : 0.0000}");
+                    $"{(Math.Abs(solutions.Max(t => t.Item2.Objective) - solutions.Min(t => t.Item2.Objective)) < 0.5 ? 0.0 : (double)(solution.Item2.Objective - solutions.Min(t => t.Item2.Objective)) / (solutions.Max(t => t.Item2.Objective) - solutions.Min(t => t.Item2.Objective))) : 0.0000};{solution.Item4}");
             }
         }
     }
