@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Gurobi80.NET">
-      <HintPath>..\..\..\gurobi800\win64\bin\Gurobi80.NET.dll</HintPath>
+      <HintPath>..\Gurobi\Gurobi80.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,6 +61,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+	<ItemGroup>
+		<Content Include="$(SolutionDir)\Gurobi\gurobi80.dll">
+			<Link>gurobi80.dll</Link>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
