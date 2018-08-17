@@ -14,7 +14,7 @@ namespace UnitTests
     [TestFixture]
     class MinimumPertubation : UnitTestBase
     {
-        private bool ConsoleToFile = false;
+        private bool ConsoleToFile = true;
 
         private ProblemFormulation formulation = ProblemFormulation.UD2;
 
@@ -51,8 +51,8 @@ namespace UnitTests
         {
             var disruptionname = disruption;
 
-			// if (ConsoleToFile)
-			//     SetConsoleOutputToFile(@"c:\temp\minimumpertubation\\logs\\" + filename + "\\" + disruptionname + ".log");
+			if (ConsoleToFile)
+			     SetConsoleOutputToFile(@"c:\temp\minimumpertubation\\logs\\" + filename + "\\" + disruptionname + ".log");
 			seed = GetRealSeed(filename, seed);
 			var data = Data.ReadXml(dataPath + filename, "120", "4");
 
@@ -68,7 +68,8 @@ namespace UnitTests
 
             var minimumPertubation = new QualityRecoveringOptimizer(data, solutionBefore, formulation, modelParameters)
             {
-                Timelimit = 60*60,
+                Timelimit = 60*60*3,
+                TotalTimelimit = 60*60*3,
                 ExtraPerubations =  5,
                 MaxTotalPertubations = 15,
                 SolPerPertubation = 1,
@@ -233,20 +234,20 @@ namespace UnitTests
             var sumfile = @"c:\temp\minimumpertubation\summary.csv";
             if (!File.Exists(sumfile))
                 File.AppendAllText(sumfile,
-                    $"date;disruptiontype;seed;dataset;disruptions;disrupted;minimumperb;objbefore;minobj;maxobj;maxperb;minperbruntime");
+                    $"date;disruptiontype;seed;dataset;disruptions;disrupted;minimumperb;objbefore;minobj;maxobj;maxperb;minperbruntime;totaltime");
 
             var time = DateTime.Now;
 
             if (solutions.Count == 0)
             {
                 File.AppendAllText(sumfile,
-                    $"\n{time};{disruptionname};{seed};{name};{affected};{entitiesdisrupted};;{solutionBefore.Objective};;;;");
+                    $"\n{time};{disruptionname};{seed};{name};{affected};{entitiesdisrupted};;{solutionBefore.Objective};;;;{minimumPertubation.LastRuntimeSeconds};");
                 return;
             }
             File.AppendAllText(sumfile,
                 $"\n{time};{disruptionname};{seed};{name};{affected};{entitiesdisrupted};{solutions.Min(t => t.Item1)};{solutionBefore.Objective};" +
                 $"{solutions.Min(t => t.Item2.Objective)};{solutions.Max(t => t.Item2.Objective)};" +
-                $"{solutions.Max(t => t.Item1)};{solutions.OrderBy(s => s.Item1).First().Item3}");
+                $"{solutions.Max(t => t.Item1)};{solutions.OrderBy(s => s.Item1).First().Item3};{minimumPertubation.LastRuntimeSeconds}");
 
             var allfile = @"c:\temp\minimumpertubation\summaryall.csv";
             if (!File.Exists(allfile))

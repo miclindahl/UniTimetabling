@@ -19,8 +19,12 @@ namespace UniversityTimetabling
         public int MaxTotalPertubations = 30;
         public int SolPerPertubation = 1;
         public int Timelimit = 60*60*24;
+        public int TotalTimelimit = 60 * 60 * 10;
         public bool PerturbationObjectEqual = false;
         public bool AbortSolverWhenNoImprovement = true;
+        public bool AbortWhenPreviousSolutionValueIsObtained = true;
+        public int LastRuntimeSeconds = 0;
+
         public enum DisruptionTypes
         {
             SecondLargestRoomRemovedOneTimeslot,
@@ -49,7 +53,7 @@ namespace UniversityTimetabling
 
         public List<Tuple<int, Solution, int, int>> Run()
         {
-
+            var starttime = DateTime.Now;
             var before = (int)solutionBefore.Objective;
            
             model.SetObjective(0, 0, 1);
@@ -66,6 +70,7 @@ namespace UniversityTimetabling
             var maxPerturbations = Math.Max(minperb + ExtraPerubations, MaxTotalPertubations);
             for (var pertubations = minperb; pertubations <= maxPerturbations; pertubations++)
             {
+                
                 Console.WriteLine($"pertubations = {pertubations}");
 
                 model.SetProxConstraint(pertubations);
@@ -75,7 +80,8 @@ namespace UniversityTimetabling
                 int sols;
 	            for (sols = 0; sols < SolPerPertubation; sols++)
 	            {
-		            if (!model.Optimize(Timelimit))
+	                var timeleft = TotalTimelimit - (int)(DateTime.Now - starttime).TotalSeconds;
+	                if (!model.Optimize(timeleft))
 		            {
 			            if (AbortSolverWhenNoImprovement) break; //infeasibles
 			            else continue;
@@ -104,9 +110,18 @@ namespace UniversityTimetabling
 		            model.RemoveCurrentSolution();
 	            }
 	            if (sols == 0) break; //previous pertubations didnt find anything
+                if (AbortWhenPreviousSolutionValueIsObtained && currentObjective == (int) solutionBefore.Objective) break;
+                if ((int) (DateTime.Now - starttime).TotalSeconds > TotalTimelimit)
+                {
+                    Console.WriteLine("total timelimit reached");
+                    break;
+                }
+
+                //overall timelimit?
                 model.SetQualConstraint(currentObjective - 1);
 
             }
+            LastRuntimeSeconds = (int) (DateTime.Now - starttime).TotalSeconds;
             return sol;
         }
 
